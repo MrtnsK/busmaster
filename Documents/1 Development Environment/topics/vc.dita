@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" []>
+<topic id="vc" xml:lang="en-us">
+  <title>MS Visual Studio Community 2013 - Compiler and IDE</title>
+  <prolog>
+    <author>Venkatanarayana Makam</author>
+    <copyright>
+      <copyryear year="2011"/>
+      <copyrholder>ROBERT BOSCH ENGINEERING AND BUSINESS SOLUTIONS LIMITED</copyrholder>
+    </copyright>
+  </prolog>
+  <body>
+    <section>
+      <title>Description</title>
+      <p>The MS Visual Studio is a common build environment and IDE on the Windows platform. Visual Studio Community 2013 is a new edition that enables the full power of Visual Studio to develop cross-platform solutions. Also Supports Visual Studio extensions that incorporate new languages, features, and development tools into this IDE. (Extensions are available from the Visual Studio Gallery.) More details about Visual Studio Community 2013 can be found <xref href="https://www.visualstudio.com/products/visual-studio-community-vs" scope="external">here</xref></p>
+    </section>
+    <section>
+      <title>Download</title>
+      <title>Visual studio Community Edition:</title>
+      <p>Visual studio 2013 Community Edition can be downloaded from the following Link.</p>
+      <p><xref href="https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx" scope="external">https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx.</xref></p>
+      <p>Select <b>Visual studio 2013-&gt;Community 2013.</b> </p>
+      <p/>
+      <title>Multibyte MFC Library for Visual Studio 2013 </title>
+    </section>
+    <p>Download and install the Multibyte MFC Library which is required for BUSMASTER Compilation from <xref href="https://www.microsoft.com/en-us/download/details.aspx?id=40770" scope="external">https://www.microsoft.com/en-us/download/details.aspx?id=40770.</xref></p>
+  </body>
+</topic>

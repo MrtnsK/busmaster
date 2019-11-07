@@ -1,0 +1,148 @@
+﻿  BaseLogObject.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\baselogobject.cpp(739): warning C4456: la déclaration de 'strChannelNum' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\baselogobject.cpp(732): note: voir la déclaration de 'strChannelNum'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\baselogobject.cpp(762): warning C4456: la déclaration de 'strChannelNum' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\baselogobject.cpp(732): note: voir la déclaration de 'strChannelNum'
+  ConfigMsgLogCANDlg.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\configmsglogdlg.h(32): warning C4091: 'typedef ' : ignoré à gauche de 'ECONTROLTYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData' : une définition hors ligne d'un membre d'un modèle de classe ne peut pas avoir d'arguments par défaut
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\configmsglogcandlg.cpp(43): warning C4456: la déclaration de 'sMainEntry' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\configmsglogcandlg.cpp(39): note: voir la déclaration de 'sMainEntry'
+  ConfigMsgLogDlg.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\configmsglogdlg.h(32): warning C4091: 'typedef ' : ignoré à gauche de 'ECONTROLTYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\configmsglogdlg.cpp(851): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\configmsglogdlg.cpp(851): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\configmsglogdlg.cpp(851): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\configmsglogdlg.cpp(1034): warning C4244: 'argument' : conversion de 'int' en 'USHORT', perte possible de données
+  ConfigMsgLogJ1939Dlg.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\configmsglogdlg.h(32): warning C4091: 'typedef ' : ignoré à gauche de 'ECONTROLTYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData' : une définition hors ligne d'un membre d'un modèle de classe ne peut pas avoir d'arguments par défaut
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+  ConfigMsgLogLINDlg.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\configmsglogdlg.h(32): warning C4091: 'typedef ' : ignoré à gauche de 'ECONTROLTYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData' : une définition hors ligne d'un membre d'un modèle de classe ne peut pas avoir d'arguments par défaut
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\configmsgloglindlg.cpp(47): warning C4456: la déclaration de 'sMainEntry' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\configmsgloglindlg.cpp(43): note: voir la déclaration de 'sMainEntry'
+  FormatMsgCAN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  FormatMsgCommon.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  FormatMsgJ1939.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+  FormatMsgLIN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\format\formatmsglin.cpp(155): warning C4244: '=' : conversion de 'eLinMsgType' en 'BYTE', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\format\formatmsglin.cpp(182): warning C4245: '=' : conversion de 'int' en 'DWORD', incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\format\formatmsglin.cpp(195): warning C4244: '=' : conversion de 'eLinMsgType' en 'BYTE', perte possible de données
+  FrameProcessor.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData' : une définition hors ligne d'un membre d'un modèle de classe ne peut pas avoir d'arguments par défaut
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\configmsglogdlg.h(32): warning C4091: 'typedef ' : ignoré à gauche de 'ECONTROLTYPE' quand aucune variable n'est déclarée
+  FrameProcessor_CAN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData' : une définition hors ligne d'un membre d'un modèle de classe ne peut pas avoir d'arguments par défaut
+  FrameProcessor_Common.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\frameprocessor_common.cpp(623): warning C4244: '=' : conversion de 'int' en 'USHORT', perte possible de données
+  FrameProcessor_J1939.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData' : une définition hors ligne d'un membre d'un modèle de classe ne peut pas avoir d'arguments par défaut
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+  FrameProcessor_LIN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData' : une définition hors ligne d'un membre d'un modèle de classe ne peut pas avoir d'arguments par défaut
+  LogObjectCAN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData' : une définition hors ligne d'un membre d'un modèle de classe ne peut pas avoir d'arguments par défaut
+  LogObjectJ1939.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData' : une définition hors ligne d'un membre d'un modèle de classe ne peut pas avoir d'arguments par défaut
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\logobjectj1939.cpp(68): warning C4838: la conversion de '__int64' en 'TYPE_CHANNEL' requiert une conversion restrictive
+c:\users\kmartin\desktop\origincpy\sources\busmaster\frameprocessor\logobjectj1939.cpp(66): warning C4244: 'initialisation' : conversion de '__int64' en 'TYPE_CHANNEL', perte possible de données
+  LogObjectLIN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\moduleid.h(50): warning C4091: 'typedef ' : ignoré à gauche de 'eID_COMPONENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData' : une définition hors ligne d'un membre d'un modèle de classe ne peut pas avoir d'arguments par défaut
+  Génération de code en cours...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\FrameProcessor\Release\FrameProcessor.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Release\FrameProcessor.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+  Utilities.lib(MsgBufVSE.obj) : .netmodule ou module MSIL compilé avec /GL trouvé ; redémarrage de l'édition de liens avec /LTCG ; ajoutez /LTCG à la ligne de commande de l'édition de liens pour améliorer les performances de l'Éditeur de liens
+     CrÚation de la bibliothÞque C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\FrameProcessor.lib et de l'objet C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\FrameProcessor.exp
+  GÚnÚration de code en cours
+  Fin de la gÚnÚration du code
+  FrameProcessor.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\FrameProcessor\Release\FrameProcessor.dll

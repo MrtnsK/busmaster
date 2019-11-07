@@ -1,0 +1,9 @@
+﻿  BusMasterKernel.cpp
+  stdafx.cpp
+  dllmain.cpp
+     Creating library Release\BusmasterKernel.lib and object Release\BusmasterKernel.exp
+  Generating code
+  Finished generating code
+  BusmasterKernel.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\Kernel\BusmasterKernel\Release\BusmasterKernel.dll
+  Un sous-répertoire ou un fichier C:\Users\kmartin\Desktop\origincpy\Sources\Kernel\..\BUSMASTER\BIN\Release\ existe déjà.
+          1 fichier(s) copié(s).

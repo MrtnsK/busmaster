@@ -1,0 +1,44 @@
+﻿  CAN_IXXAT_VCI_stdafx.cpp
+c:\program files (x86)\windows kits\8.1\include\um\winsdkver.h(29): warning C4005: '_WIN32_WINNT' : redéfinition de macro
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ixxat_vci\targetver.h(16): note: voir la définition précédente de '_WIN32_WINNT'
+  HardwareListingCAN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(727): warning C4018: '<' : incompatibilité signed/unsigned
+  CAN_IXXAT_VCI.cpp
+c:\program files (x86)\windows kits\8.1\include\um\winsdkver.h(29): warning C4005: '_WIN32_WINNT' : redéfinition de macro
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ixxat_vci\targetver.h(16): note: voir la définition précédente de '_WIN32_WINNT'
+  CANControllerConfigDlg.cpp
+c:\program files (x86)\windows kits\8.1\include\um\winsdkver.h(29): warning C4005: '_WIN32_WINNT' : redéfinition de macro
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ixxat_vci\targetver.h(16): note: voir la définition précédente de '_WIN32_WINNT'
+  CANSelectDlg.cpp
+c:\program files (x86)\windows kits\8.1\include\um\winsdkver.h(29): warning C4005: '_WIN32_WINNT' : redéfinition de macro
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ixxat_vci\targetver.h(16): note: voir la définition précédente de '_WIN32_WINNT'
+  ClientBuffer.cpp
+c:\program files (x86)\windows kits\8.1\include\um\winsdkver.h(29): warning C4005: '_WIN32_WINNT' : redéfinition de macro
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ixxat_vci\targetver.h(16): note: voir la définition précédente de '_WIN32_WINNT'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ixxat_vci\clientbuffer.cpp(169): warning C4018: '<' : incompatibilité signed/unsigned
+  ClientList.cpp
+c:\program files (x86)\windows kits\8.1\include\um\winsdkver.h(29): warning C4005: '_WIN32_WINNT' : redéfinition de macro
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ixxat_vci\targetver.h(16): note: voir la définition précédente de '_WIN32_WINNT'
+  DIL_CAN_IXXAT_VCI.cpp
+c:\program files (x86)\windows kits\8.1\include\um\winsdkver.h(29): warning C4005: '_WIN32_WINNT' : redéfinition de macro
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ixxat_vci\targetver.h(16): note: voir la définition précédente de '_WIN32_WINNT'
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ixxat_vci\dil_can_ixxat_vci.cpp(246): warning C4018: '>=' : incompatibilité signed/unsigned
+  IxxatCanChannel.cpp
+c:\program files (x86)\windows kits\8.1\include\um\winsdkver.h(29): warning C4005: '_WIN32_WINNT' : redéfinition de macro
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ixxat_vci\targetver.h(16): note: voir la définition précédente de '_WIN32_WINNT'
+  MultiLanguage.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\multilanguage.cpp(174): warning C4996: 'GetVersion': a été déclaré déconseillé
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(110): note: voir la déclaration de 'GetVersion'
+  vcinpldynl.cpp
+c:\program files (x86)\windows kits\8.1\include\um\winsdkver.h(29): warning C4005: '_WIN32_WINNT' : redéfinition de macro
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ixxat_vci\targetver.h(16): note: voir la définition précédente de '_WIN32_WINNT'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\CAN_IXXAT_VCI\Release\CAN_IXXAT_VCI.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Release\CAN_IXXAT_VCI.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+     Création de la bibliothèque C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\CAN_IXXAT_VCI.lib et de l'objet C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\CAN_IXXAT_VCI.exp
+  Génération de code en cours
+  0 of 934 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+  CAN_IXXAT_VCI.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\CAN_IXXAT_VCI\Release\CAN_IXXAT_VCI.dll

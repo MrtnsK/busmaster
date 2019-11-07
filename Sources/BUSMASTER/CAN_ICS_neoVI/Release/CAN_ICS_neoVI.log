@@ -1,0 +1,88 @@
+﻿  HardwareListingCAN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(727): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(1104): warning C4245: 'initialisation' : conversion de 'int' en 'UINT', incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(1149): warning C4100: 'pResult' : paramètre formel non référencé
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(1149): warning C4100: 'pNMHDR' : paramètre formel non référencé
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(1153): warning C4100: 'pResult' : paramètre formel non référencé
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(1153): warning C4100: 'pNMHDR' : paramètre formel non référencé
+  CAN_ICS_neoVI.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\external\icsnvc40.h(1004): warning C4121: '_SNeoMostGatewaySettings' : l'alignement d'un membre était sensible à la compression
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\external\icsnvc40.h(1603): warning C4121: '_stCM_ISO157652_RxMessage' : l'alignement d'un membre était sensible à la compression
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\can_ics_neovi.cpp(655): warning C4244: '=' : conversion de 'unsigned short' en 'UCHAR', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\can_ics_neovi.cpp(972): warning C4244: '=' : conversion de 'DOUBLE' en 'LONGLONG', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\can_ics_neovi.cpp(1493): warning C4244: '=' : conversion de 'int' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\can_ics_neovi.cpp(1592): warning C4130: '!=' : opération logique sur l'adresse d'une constante de chaîne
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\can_ics_neovi.cpp(1702): warning C4018: '>=' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\can_ics_neovi.cpp(1712): warning C4244: '=' : conversion de 'int' en 'UCHAR', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\can_ics_neovi.cpp(2472): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\can_ics_neovi.cpp(2482): warning C4244: '=' : conversion de 'unsigned int' en 'UCHAR', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\can_ics_neovi.cpp(2483): warning C4244: '=' : conversion de 'unsigned int' en 'UCHAR', perte possible de données
+  CAN_ICS_neoVI_Channel.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  CAN_ICS_neoVI_Network.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  CAN_ICS_neoVI_stdafx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  CANRegAnalysis_CAN_ICS_neoVI.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\canreganalysis_can_ics_neovi.cpp(41): warning C4100: 'psColListCtrl' : paramètre formel non référencé
+  ChangeRegisters_CAN_ICS_neoVI.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\changeregisters_can_ics_neovi.cpp(1163): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\changeregisters_can_ics_neovi.cpp(1163): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\changeregisters_can_ics_neovi.cpp(1163): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\changeregisters_can_ics_neovi.cpp(1188): warning C4458: la déclaration de 'm_usBTR0BTR1' masque le membre de classe
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\changeregisters_can_ics_neovi.h(176): note: voir la déclaration de 'CChangeRegisters_CAN_ICS_neoVI::m_usBTR0BTR1'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\changeregisters_can_ics_neovi.cpp(1663): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\changeregisters_can_ics_neovi.cpp(1670): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\changeregisters_can_ics_neovi.cpp(1750): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\changeregisters_can_ics_neovi.cpp(1750): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_ics_neovi\changeregisters_can_ics_neovi.cpp(1750): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+  MultiLanguage.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\multilanguage.cpp(174): warning C4996: 'GetVersion': a été déclaré déconseillé
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\sysinfoapi.h(135): note: voir la déclaration de 'GetVersion'
+  Génération de code en cours...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\CAN_ICS_neoVI\Release\CAN_ICS_neoVI.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Release\CAN_ICS_neoVI.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+     Création de la bibliothèque C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\CAN_ICS_neoVI.lib et de l'objet C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\CAN_ICS_neoVI.exp
+  CAN_ICS_neoVI.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\CAN_ICS_neoVI\Release\CAN_ICS_neoVI.dll

@@ -1,0 +1,75 @@
+﻿  Utility_Replay.cpp
+  ReplayProcess.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\utility\CANChannelConfigDefines.h(33): warning C4005: 'defCLOCK' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\HashDefines.h(913) : see previous definition of 'defCLOCK'
+ReplayProcess.cpp(216): warning C4189: 'hRet' : local variable is initialized but not referenced
+ReplayProcess.cpp(231): warning C4189: 'hRet' : local variable is initialized but not referenced
+ReplayProcess.cpp(406): warning C4189: 'hRet' : local variable is initialized but not referenced
+ReplayProcess.cpp(424): warning C4189: 'hRet' : local variable is initialized but not referenced
+ReplayProcess.cpp(501): warning C4189: 'bModeMismatch' : local variable is initialized but not referenced
+ReplayProcess.cpp(540): warning C4189: 'bProtocolFound' : local variable is initialized but not referenced
+ReplayProcess.cpp(1035): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'DWORD', possible loss of data
+ReplayProcess.cpp(1072): warning C4018: '<=' : signed/unsigned mismatch
+ReplayProcess.cpp(1142): warning C4018: '<=' : signed/unsigned mismatch
+ReplayProcess.cpp(1146): warning C4244: '=' : conversion from 'std::streamoff' to 'DWORD', possible loss of data
+C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_DataTypes.h(488): warning C4189: 'byVersion' : local variable is initialized but not referenced
+          C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_DataTypes.h(487) : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::pbGetConfigData(xmlNodePtr &) const'
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\replay\ReplayFile.h(59) : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>' being compiled
+  ReplayManager.cpp
+ReplayManager.cpp(359): warning C4018: '<' : signed/unsigned mismatch
+ReplayManager.cpp(374): warning C4018: '<' : signed/unsigned mismatch
+ReplayManager.cpp(770): warning C4189: 'pNode' : local variable is initialized but not referenced
+C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_DataTypes.h(488): warning C4189: 'byVersion' : local variable is initialized but not referenced
+          C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_DataTypes.h(487) : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::pbGetConfigData(xmlNodePtr &) const'
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\replay\ReplayFile.h(59) : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>' being compiled
+  ReplayFileConfigDlg.cpp
+C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_DataTypes.h(488): warning C4189: 'byVersion' : local variable is initialized but not referenced
+          C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_DataTypes.h(487) : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::pbGetConfigData(xmlNodePtr &) const'
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\replay\ReplayFile.h(59) : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>' being compiled
+  ReplayFile.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\utility\CANChannelConfigDefines.h(33): warning C4005: 'defCLOCK' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\HashDefines.h(913) : see previous definition of 'defCLOCK'
+ReplayFile.cpp(374): warning C4189: 'bRet' : local variable is initialized but not referenced
+C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_DataTypes.h(488): warning C4189: 'byVersion' : local variable is initialized but not referenced
+          C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_DataTypes.h(487) : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::pbGetConfigData(xmlNodePtr &) const'
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\replay\ReplayFile.h(59) : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>' being compiled
+C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_DataTypes.h(619): warning C4189: 'nRealFilters' : local variable is initialized but not referenced
+          C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_DataTypes.h(618) : while compiling class template member function 'int SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::nGetFiltersFromName(SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN> &,std::map<std::string,int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>> &)'
+          with
+          [
+              _Kty=std::string
+  ,            _Ty=int
+          ]
+          ReplayFile.cpp(531) : see reference to function template instantiation 'int SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::nGetFiltersFromName(SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN> &,std::map<std::string,int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>> &)' being compiled
+          with
+          [
+              _Kty=std::string
+  ,            _Ty=int
+          ]
+  Replay.cpp
+C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_DataTypes.h(488): warning C4189: 'byVersion' : local variable is initialized but not referenced
+          C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_DataTypes.h(487) : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::pbGetConfigData(xmlNodePtr &) const'
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\replay\ReplayFile.h(59) : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>' being compiled
+  OwnerDataListCtrl.cpp
+  MultiLanguage.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\stdAfx.h(81): warning C4192: automatically excluding 'ISequentialStream' while importing type library 'msxml6.dll'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\stdAfx.h(81): warning C4192: automatically excluding '_FILETIME' while importing type library 'msxml6.dll'
+..\Application\MultiLanguage.cpp(174): warning C4996: 'GetVersion': was declared deprecated
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110) : see declaration of 'GetVersion'
+..\Application\MultiLanguage.cpp(144): warning C4189: 'nPrimaryLang' : local variable is initialized but not referenced
+..\Application\MultiLanguage.cpp(146): warning C4189: 'lcid' : local variable is initialized but not referenced
+..\Application\MultiLanguage.cpp(145): warning C4189: 'nSubLang' : local variable is initialized but not referenced
+..\Application\MultiLanguage.cpp(328): warning C4189: 'nPrimaryLang' : local variable is initialized but not referenced
+..\Application\MultiLanguage.cpp(331): warning C4189: 'nLocales' : local variable is initialized but not referenced
+..\Application\MultiLanguage.cpp(330): warning C4189: 'lcid' : local variable is initialized but not referenced
+..\Application\MultiLanguage.cpp(329): warning C4189: 'nSubLang' : local variable is initialized but not referenced
+..\Application\MultiLanguage.cpp(388): warning C4189: 'nSubLang' : local variable is initialized but not referenced
+  MsgReplayWnd.cpp
+MsgReplayWnd.cpp(357): warning C4189: 'bBreakPointFound' : local variable is initialized but not referenced
+MsgReplayWnd.cpp(704): warning C4018: '<' : signed/unsigned mismatch
+C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_DataTypes.h(488): warning C4189: 'byVersion' : local variable is initialized but not referenced
+          C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_DataTypes.h(487) : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::pbGetConfigData(xmlNodePtr &) const'
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\replay\ReplayFile.h(59) : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>' being compiled
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\Replay\Debug\Replay.dll) does not match the Linker's OutputFile property value (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Debug\Replay.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : fatal error LNK1104: cannot open file 'C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Debug\Filter.lib'

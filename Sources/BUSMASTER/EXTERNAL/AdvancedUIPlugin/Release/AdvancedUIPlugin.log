@@ -1,0 +1,8 @@
+﻿  dllmain.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\Release\AdvancedUIPlugin.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Release\AdvancedUIPlugIn.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+  Génération de code en cours
+  0 of 0 functions (<0.1%) were compiled.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+  AdvancedUIPlugin.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\Release\AdvancedUIPlugin.dll

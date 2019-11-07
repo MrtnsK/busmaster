@@ -1,0 +1,73 @@
+﻿  Processing .\DMGraph.idl
+  DMGraph.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.idl
+  oaidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.idl
+  objidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwn.idl
+  unknwn.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.idl
+  wtypes.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypesbase.idl
+  wtypesbase.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+  basetsd.h
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+  guiddef.h
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\ocidl.idl
+  ocidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oleidl.idl
+  oleidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\servprov.idl
+  servprov.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\urlmon.idl
+  urlmon.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\msxml.idl
+  msxml.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.acf
+  oaidl.acf
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\ocidl.acf
+  ocidl.acf
+  StdAfx.cpp
+  AnnoPropPage.cpp
+  ColPickerBtn.cpp
+  CursorPropPage.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\external\dmgraph\cursorproppage.cpp(31): warning C4996: 'wcstok': wcstok has been changed to conform with the ISO C standard, adding an extra context parameter. To use the legacy Microsoft wcstok, define _CRT_NON_CONFORMING_WCSTOK.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstring.h(254): note: voir la déclaration de 'wcstok'
+  DMGraph.cpp
+  DMGraphCtrl.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\external\dmgraph\dmgraphctrl.cpp(3393): warning C4244: 'return' : conversion de 'double' en 'LONG', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\external\dmgraph\dmgraphctrl.cpp(3408): warning C4244: 'return' : conversion de 'double' en 'LONG', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\external\dmgraph\dmgraphctrl.cpp(3437): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\external\dmgraph\dmgraphctrl.cpp(3518): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\external\dmgraph\dmgraphctrl.cpp(3539): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\external\dmgraph\dmgraphctrl.cpp(3557): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\external\dmgraph\dmgraphctrl.cpp(3565): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\external\dmgraph\dmgraphctrl.cpp(3571): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\external\dmgraph\dmgraphctrl.cpp(4087): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\external\dmgraph\dmgraphctrl.cpp(4175): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\external\dmgraph\dmgraphctrl.cpp(4222): warning C4018: '<' : incompatibilité signed/unsigned
+  DMGraphCursorState.cpp
+  DMGraphPropPage.cpp
+  DrawFct.cpp
+  ElementPropPage.cpp
+  FormatPropPage.cpp
+  GraphAnno.cpp
+  GraphAxis.cpp
+  GraphCollection.cpp
+  GraphCursor.cpp
+  GraphElement.cpp
+  PropPageBaseWnd.cpp
+  RectTracker.cpp
+  Génération de code en cours...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\EXTERNAL\DmGraph\.\ReleaseUMinSize\DMGraph.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\ReleaseUMinSize\DMGraph.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+.\DMGraph.def : warning LNK4222: un symbole exporté 'DllCanUnloadNow' ne doit pas se voir assigner un nombre ordinal
+.\DMGraph.def : warning LNK4222: un symbole exporté 'DllGetClassObject' ne doit pas se voir assigner un nombre ordinal
+.\DMGraph.def : warning LNK4222: un symbole exporté 'DllRegisterServer' ne doit pas se voir assigner un nombre ordinal
+.\DMGraph.def : warning LNK4222: un symbole exporté 'DllUnregisterServer' ne doit pas se voir assigner un nombre ordinal
+     Création de la bibliothèque C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/bin/.\ReleaseUMinSize\DMGraph.lib et de l'objet C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/bin/.\ReleaseUMinSize\DMGraph.exp
+  DMGraph.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\EXTERNAL\DmGraph\.\ReleaseUMinSize\DMGraph.dll
+  Performing registration
+  La syntaxe du nom de fichier, de répertoire ou de volume est incorrecte.
+          0 fichier(s) copié(s).
+          1 fichier(s) copié(s).

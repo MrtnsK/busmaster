@@ -1,0 +1,26 @@
+﻿  HardwareListingCAN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(727): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(1104): warning C4245: 'initialisation' : conversion de 'int' en 'UINT', incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(1149): warning C4100: 'pResult' : paramètre formel non référencé
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(1149): warning C4100: 'pNMHDR' : paramètre formel non référencé
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(1153): warning C4100: 'pResult' : paramètre formel non référencé
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(1153): warning C4100: 'pNMHDR' : paramètre formel non référencé
+  CAN_MHS.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_mhs\mhsbmcfg.h(10): warning C4099: 'TMhsCanCfg' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_mhs\mhs_types.h(12): note: voir la déclaration de 'TMhsCanCfg'
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_mhs\can_mhs.cpp(372): warning C4456: la déclaration de 'i' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_mhs\can_mhs.cpp(316): note: voir la déclaration de 'i'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_mhs\can_mhs.cpp(749): warning C4456: la déclaration de 'j' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_mhs\can_mhs.cpp(721): note: voir la déclaration de 'j'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_mhs\can_mhs.cpp(1296): warning C4100: 'nCount' : paramètre formel non référencé
+  CAN_MHS_stdafx.cpp
+  MultiLanguage.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\multilanguage.cpp(174): warning C4996: 'GetVersion': a été déclaré déconseillé
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(110): note: voir la déclaration de 'GetVersion'
+  Génération de code en cours...
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_mhs\can_mhs.cpp(1273): warning C4706: assignation au sein d'une expression conditionnelle
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\CAN_MHS\Release\CAN_MHS.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Release\CAN_MHS.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+     Création de la bibliothèque C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\CAN_MHS.lib et de l'objet C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\CAN_MHS.exp
+  CAN_MHS.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\CAN_MHS\Release\CAN_MHS.dll

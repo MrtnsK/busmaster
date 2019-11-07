@@ -1,0 +1,99 @@
+﻿  Microsoft Windows [version 10.0.18362.449]
+  (c) 2019 Microsoft Corporation. Tous droits réservés.
+  
+  C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\CAN_Kvaser_CAN>
+  HardwareListingCAN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(727): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(1104): warning C4245: 'initialisation' : conversion de 'int' en 'UINT', incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(1149): warning C4100: 'pResult' : paramètre formel non référencé
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(1149): warning C4100: 'pNMHDR' : paramètre formel non référencé
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(1153): warning C4100: 'pResult' : paramètre formel non référencé
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelistingcan.cpp(1153): warning C4100: 'pNMHDR' : paramètre formel non référencé
+  AcceptanceFilterDlg.cpp
+  CAN_Kvaser_CAN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\can_kvaser_can.cpp(746): warning C4244: '=' : conversion de 'unsigned short' en 'UCHAR', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\can_kvaser_can.cpp(816): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\can_kvaser_can.cpp(1929): warning C4130: '!=' : opération logique sur l'adresse d'une constante de chaîne
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\can_kvaser_can.cpp(1993): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\can_kvaser_can.cpp(2232): warning C4018: '>=' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\can_kvaser_can.cpp(2243): warning C4244: '=' : conversion de 'int' en 'UCHAR', perte possible de données
+  CANRegAnalysis.cpp
+  ChangeRegisters.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\changeregisters.cpp(1357): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\changeregisters.cpp(1357): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\changeregisters.cpp(1357): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\changeregisters.cpp(1364): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\changeregisters.cpp(1364): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\changeregisters.cpp(1364): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\changeregisters.cpp(1918): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\changeregisters.cpp(1918): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\changeregisters.cpp(1918): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\changeregisters.cpp(1944): warning C4458: la déclaration de 'm_usBTR0BTR1' masque le membre de classe
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\changeregisters.h(164): note: voir la déclaration de 'CChangeRegisters::m_usBTR0BTR1'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\changeregisters.cpp(2137): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_kvaser_can\changeregisters.cpp(2144): warning C4018: '<' : incompatibilité signed/unsigned
+  MultiLanguage.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\multilanguage.cpp(174): warning C4996: 'GetVersion': a été déclaré déconseillé
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(110): note: voir la déclaration de 'GetVersion'
+  Génération de code en cours...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\CAN_Kvaser_CAN\Release\CAN_Kvaser_CAN.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Release\CAN_Kvaser_CAN.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+  Le fichier spécifié est introuvable.
+  Impossible de trouver C:\Users\kmartin\AppData\Local\Temp\canlib32.lib
+     Création de la bibliothèque C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\CAN_Kvaser_CAN.lib et de l'objet C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\CAN_Kvaser_CAN.exp
+  CAN_Kvaser_CAN.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\CAN_Kvaser_CAN\Release\CAN_Kvaser_CAN.dll

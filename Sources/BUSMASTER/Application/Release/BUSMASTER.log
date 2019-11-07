@@ -1,0 +1,251 @@
+﻿  Processing .\BUSMASTER.idl
+  BUSMASTER.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.idl
+  oaidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.idl
+  objidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwn.idl
+  unknwn.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.idl
+  wtypes.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypesbase.idl
+  wtypesbase.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+  basetsd.h
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+  guiddef.h
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.acf
+  oaidl.acf
+midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : __MIDL___MIDL_itf_BUSMASTER_0000_0000_0009 (0x800288C6)
+midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : __MIDL___MIDL_itf_BUSMASTER_0000_0000_0010 (0x800288C6)
+midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : __MIDL___MIDL_itf_BUSMASTER_0000_0000_0011 (0x800288C6)
+midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : tagTxBlock_Usr (0x800288C6)
+midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : __MIDL___MIDL_itf_BUSMASTER_0000_0000_0012 (0x800288C6)
+midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : __MIDL___MIDL_itf_BUSMASTER_0000_0000_0013 (0x800288C6)
+midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : tagLoggingBlockUsr (0x800288C6)
+  StdAfx.cpp
+  AboutDlg.cpp
+AboutDlg.cpp(115): warning C4018: '<' : signed/unsigned mismatch
+  Application.cpp
+Application.cpp(583): warning C4100: 'pApplication' : unreferenced formal parameter
+  AppServices_Impl.cpp
+  BUSMASTER.cpp
+BUSMASTER.cpp(171): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(252) : see declaration of 'strcmpi'
+BUSMASTER.cpp(172): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(252) : see declaration of 'strcmpi'
+  BusmasterDump.cpp
+BusmasterDump.cpp(27): warning C4244: 'argument' : conversion from 'unsigned int' to 'char', possible loss of data
+  BusmasterPluginManager.cpp
+BusmasterPluginManager.cpp(462): warning C4101: 'cHot' : unreferenced local variable
+BusmasterPluginManager.cpp(462): warning C4101: 'cDisabled' : unreferenced local variable
+BusmasterPluginManager.cpp(462): warning C4101: 'cToolTip' : unreferenced local variable
+BusmasterPluginManager.cpp(462): warning C4101: 'cEnabled' : unreferenced local variable
+  BusStatisticCAN.cpp
+  BusStatisticLIN.cpp
+  BusStatistics.cpp
+  BusStatisticsDlg.cpp
+  CANSignalExtractor.cpp
+CANSignalExtractor.cpp(231): warning C4100: 'channel' : unreferenced formal parameter
+CANSignalExtractor.cpp(231): warning C4100: 'filePath' : unreferenced formal parameter
+CANSignalExtractor.cpp(329): warning C4244: '=' : conversion from 'unsigned int' to 'unsigned char', possible loss of data
+CANSignalExtractor.cpp(319): warning C4100: 'dlc' : unreferenced formal parameter
+CANSignalExtractor.cpp(319): warning C4100: 'channel' : unreferenced formal parameter
+  ClientManager.cpp
+ClientManager.cpp(84): warning C4389: '==' : signed/unsigned mismatch
+ClientManager.cpp(98): warning C4389: '==' : signed/unsigned mismatch
+ClientManager.cpp(150): warning C4239: nonstandard extension used : 'initializing' : conversion from 'Concurrency::details::_Solist_iterator<Concurrency::details::_Split_order_list_value<_Element_type,_Element_allocator_type>>' to 'Concurrency::details::_Solist_iterator<Concurrency::details::_Split_order_list_value<_Element_type,_Element_allocator_type>> &'
+          with
+          [
+              _Element_type=std::pair<const std::string,std::list<VariableChangeListnerInfo,std::allocator<VariableChangeListnerInfo>>>
+  ,            _Element_allocator_type=std::allocator<std::pair<const std::string,std::list<VariableChangeListnerInfo,std::allocator<VariableChangeListnerInfo>>>>
+          ]
+          A non-const reference may only be bound to an lvalue
+ClientManager.cpp(215): warning C4239: nonstandard extension used : 'initializing' : conversion from 'Concurrency::details::_Solist_iterator<Concurrency::details::_Split_order_list_value<_Element_type,_Element_allocator_type>>' to 'Concurrency::details::_Solist_iterator<Concurrency::details::_Split_order_list_value<_Element_type,_Element_allocator_type>> &'
+          with
+          [
+              _Element_type=std::pair<const std::string,std::list<VariableChangeListnerInfo,std::allocator<VariableChangeListnerInfo>>>
+  ,            _Element_allocator_type=std::allocator<std::pair<const std::string,std::list<VariableChangeListnerInfo,std::allocator<VariableChangeListnerInfo>>>>
+          ]
+          A non-const reference may only be bound to an lvalue
+  CNVTCImageList.cpp
+  CNVTCToolBar.cpp
+  ConfigData.cpp
+  ConfigMsgDispPropPg.cpp
+  DatabaseDissociateDlg.cpp
+  DisplayIntMsg.cpp
+  DriverInfoDlg.cpp
+  ElementSelection.cpp
+  Generating Code...
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\cansignalextractor.cpp(217): warning C4715: 'CANSignalExtractor::setVariableValue' : not all control paths return a value
+  Compiling...
+  ChannelConfigurationDlg.cpp
+ChannelConfigurationDlg.cpp(431): warning C4244: 'argument' : conversion from 'UID_ELEMENT' to 'DWORD_PTR', possible loss of data
+ChannelConfigurationDlg.cpp(524): warning C4244: 'argument' : conversion from 'const UID_ELEMENT' to 'DWORD_PTR', possible loss of data
+  Flags.cpp
+  FlexTxHandler.cpp
+  GraphConfiguration.cpp
+  GraphElement.cpp
+  GraphList.cpp
+  GraphParameters.cpp
+  ImportLogToolbar.cpp
+  InterfaceGetter.cpp
+  J1939TimeOutCfg.cpp
+  LINBusStatisticsDlg.cpp
+  LINSignalExtractor.cpp
+LINSignalExtractor.cpp(226): warning C4100: 'channel' : unreferenced formal parameter
+LINSignalExtractor.cpp(226): warning C4100: 'filePath' : unreferenced formal parameter
+LINSignalExtractor.cpp(323): warning C4244: '=' : conversion from 'unsigned int' to 'unsigned char', possible loss of data
+LINSignalExtractor.cpp(328): warning C4244: '=' : conversion from 'unsigned int' to 'unsigned char', possible loss of data
+LINSignalExtractor.cpp(314): warning C4100: 'dlc' : unreferenced formal parameter
+LINSignalExtractor.cpp(314): warning C4100: 'channel' : unreferenced formal parameter
+  MainFrm.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\utility\CANChannelConfigDefines.h(33): warning C4005: 'defCLOCK' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\HashDefines.h(913) : see previous definition of 'defCLOCK'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\uds_protocol\UDS_Resource.h(11): warning C4005: 'IDC_COMBO_CHANNEL' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\resource.h(360) : see previous definition of 'IDC_COMBO_CHANNEL'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\uds_protocol\UDS_Resource.h(15): warning C4005: 'IDC_EDIT_DATA' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\resource.h(376) : see previous definition of 'IDC_EDIT_DATA'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\uds_protocol\UDS_Resource.h(25): warning C4005: 'IDM_UDS' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\resource.h(1190) : see previous definition of 'IDM_UDS'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\uds_protocol\UDS_Resource.h(27): warning C4005: 'IDD_SETTINGS_UDS' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\resource.h(1191) : see previous definition of 'IDD_SETTINGS_UDS'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\signalwatch\SignalWatch_Resource.h(24): warning C4005: 'IDI_ICON_SMSG' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\resource.h(1242) : see previous definition of 'IDI_ICON_SMSG'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\Resource.h(360): warning C4005: 'IDC_COMBO_CHANNEL' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\uds_protocol\UDS_Resource.h(11) : see previous definition of 'IDC_COMBO_CHANNEL'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\Resource.h(376): warning C4005: 'IDC_EDIT_DATA' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\uds_protocol\UDS_Resource.h(15) : see previous definition of 'IDC_EDIT_DATA'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\Resource.h(1190): warning C4005: 'IDM_UDS' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\uds_protocol\UDS_Resource.h(25) : see previous definition of 'IDM_UDS'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\Resource.h(1191): warning C4005: 'IDD_SETTINGS_UDS' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\uds_protocol\UDS_Resource.h(27) : see previous definition of 'IDD_SETTINGS_UDS'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\Resource.h(1242): warning C4005: 'IDI_ICON_SMSG' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\signalwatch\SignalWatch_resource.h(24) : see previous definition of 'IDI_ICON_SMSG'
+MainFrm.cpp(2204): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+MainFrm.cpp(4553): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MainFrm.cpp(6954): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+MainFrm.cpp(9677): warning C4244: '=' : conversion from 'DWORD' to 'SHORT', possible loss of data
+MainFrm.cpp(11947): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MainFrm.cpp(12168): warning C4244: '=' : conversion from 'int' to 'USHORT', possible loss of data
+MainFrm.cpp(12367): warning C4244: '=' : conversion from 'int' to 'USHORT', possible loss of data
+MainFrm.cpp(12839): warning C4244: '=' : conversion from 'int' to 'USHORT', possible loss of data
+MainFrm.cpp(13417): warning C4244: '=' : conversion from 'int' to 'unsigned short', possible loss of data
+MainFrm.cpp(14125): warning C4244: '=' : conversion from 'unsigned long' to 'SHORT', possible loss of data
+MainFrm.cpp(16131): warning C4244: 'argument' : conversion from 'UINT' to 'UCHAR', possible loss of data
+MainFrm.cpp(16776): warning C4100: 'wparam' : unreferenced formal parameter
+MainFrm.cpp(16776): warning C4100: 'lparam' : unreferenced formal parameter
+  MDIChildBase.cpp
+  MessageAttrib.cpp
+  MessageDetailsDlg.cpp
+  MessageInterpretation.cpp
+  MessageList.cpp
+  MessageWindowSettingsDialog.cpp
+  MFCRibbonBarEx.cpp
+  Generating Code...
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\mainfrm.cpp(16794): warning C4715: 'CMainFrame::GetLicenseDetails' : not all control paths return a value
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\linsignalextractor.cpp(212): warning C4715: 'LINSignalExtractor::setVariableValue' : not all control paths return a value
+  Compiling...
+  MsgBufferConfigPage.cpp
+  MsgFilterConfigPage.cpp
+  MsgFrmtWnd.cpp
+MsgFrmtWnd.cpp(1038): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MsgFrmtWnd.cpp(1131): warning C4244: 'argument' : conversion from 'int' to 'short', possible loss of data
+MsgFrmtWnd.cpp(1210): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MsgFrmtWnd.cpp(1465): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MsgFrmtWnd.cpp(1539): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MsgFrmtWnd.cpp(1620): warning C4018: '>' : signed/unsigned mismatch
+  MsgIDAttr.cpp
+  MsgSgDetView.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\utility\CANChannelConfigDefines.h(33): warning C4005: 'defCLOCK' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\HashDefines.h(913) : see previous definition of 'defCLOCK'
+MsgSgDetView.cpp(596): warning C4018: '>=' : signed/unsigned mismatch
+MsgSgDetView.cpp(710): warning C4018: '>=' : signed/unsigned mismatch
+  MsgSgTreeView.cpp
+  MsgSignal.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\utility\CANChannelConfigDefines.h(33): warning C4005: 'defCLOCK' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\HashDefines.h(913) : see previous definition of 'defCLOCK'
+MsgSignal.cpp(4304): warning C4018: '>' : signed/unsigned mismatch
+MsgSignal.cpp(4305): warning C4018: '<' : signed/unsigned mismatch
+  MsgSignalDBWnd.cpp
+  MsgWndHdrInfo.cpp
+  MsgWndThread.cpp
+  MultiLanguage.cpp
+MultiLanguage.cpp(174): warning C4996: 'GetVersion': was declared deprecated
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110) : see declaration of 'GetVersion'
+  NetworkStatistics.cpp
+NetworkStatistics.cpp(484): warning C4389: '==' : signed/unsigned mismatch
+NetworkStatistics.cpp(493): warning C4018: '<' : signed/unsigned mismatch
+NetworkStatistics.cpp(527): warning C4018: '<' : signed/unsigned mismatch
+NetworkStatistics.cpp(611): warning C4239: nonstandard extension used : 'argument' : conversion from 'WINDOWPLACEMENT' to 'WINDOWPLACEMENT &'
+          A non-const reference may only be bound to an lvalue
+  NotificListbox.cpp
+  NotificWnd.cpp
+  PPageMessage.cpp
+  ProgressBarDlg.cpp
+ProgressBarDlg.cpp(52): warning C4244: 'argument' : conversion from 'int' to 'short', possible loss of data
+  Properties.cpp
+  RxMsgList.cpp
+  SigGrphConfigDlg.cpp
+SigGrphConfigDlg.cpp(116): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+SigGrphConfigDlg.cpp(119): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+SigGrphConfigDlg.cpp(122): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+  SigGrphWndHandler.cpp
+  Generating Code...
+  Compiling...
+  SignalDetailsDlg.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\utility\CANChannelConfigDefines.h(33): warning C4005: 'defCLOCK' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\HashDefines.h(913) : see previous definition of 'defCLOCK'
+SignalDetailsDlg.cpp(1392): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+SignalDetailsDlg.cpp(1424): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+SignalDetailsDlg.cpp(1764): warning C4018: '>=' : signed/unsigned mismatch
+SignalDetailsDlg.cpp(1904): warning C4018: '>' : signed/unsigned mismatch
+SignalDetailsDlg.cpp(1916): warning C4018: '<' : signed/unsigned mismatch
+  Splash.cpp
+  SplFileDlg.cpp
+  Struct.cpp
+  TreeItemParam.cpp
+  TSEditorHandler.cpp
+  TSExecutorHandler.cpp
+  TxMsgWndJ1939.cpp
+  UIThread.cpp
+  UICreator.cpp
+  Utility.cpp
+  ValueDescriptionDlg.cpp
+  VariableLayer.cpp
+VariableLayer.cpp(57): warning C4100: 'onUpdateOnly' : unreferenced formal parameter
+VariableLayer.cpp(57): warning C4100: 'forTx' : unreferenced formal parameter
+VariableLayer.cpp(129): warning C4100: 'pNodePtr' : unreferenced formal parameter
+  WaveFormDataHandler.cpp
+WaveFormDataHandler.cpp(474): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+WaveFormDataHandler.cpp(517): warning C4244: '=' : conversion from 'int' to 'short', possible loss of data
+WaveFormDataHandler.cpp(582): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+WaveFormDataHandler.cpp(591): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+WaveFormDataHandler.cpp(600): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+  WaveformSelectionDlg.cpp
+WaveformSelectionDlg.cpp(362): warning C4244: 'argument' : conversion from 'int' to 'short', possible loss of data
+  WaveformTransmitter.cpp
+WaveformTransmitter.cpp(100): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+WaveformTransmitter.cpp(159): warning C4244: 'initializing' : conversion from 'int' to 'short', possible loss of data
+WaveformTransmitter.cpp(214): warning C4244: 'initializing' : conversion from 'double' to 'UINT64', possible loss of data
+WaveformTransmitter.cpp(201): warning C4100: 'dataLenght' : unreferenced formal parameter
+WaveformTransmitter.cpp(300): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+WaveformTransmitter.cpp(339): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+  WrapperErrorLogger.cpp
+  Generating Code...
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\variablelayer.cpp(43): warning C4715: 'VariableManager::VariableLayer::getVariableType' : not all control paths return a value
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\variablelayer.cpp(56): warning C4715: 'VariableManager::VariableLayer::isSignalValueValid' : not all control paths return a value
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\variablelayer.cpp(69): warning C4715: 'VariableManager::VariableLayer::registerVariable' : not all control paths return a value
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\variablelayer.cpp(29): warning C4715: 'VariableManager::VariableLayer::isVariableExists' : not all control paths return a value
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\variablelayer.cpp(80): warning C4715: 'VariableManager::VariableLayer::UnRegisterVariable' : not all control paths return a value
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\variablelayer.cpp(94): warning C4715: 'VariableManager::VariableLayer::setVariableValue' : not all control paths return a value
+  BusmasterMenuItem.cpp
+  IdGenerator.cpp
+  IIdGenerator.cpp
+  MenuCreator.cpp
+UI\MenuCreator.cpp(51): warning C4100: 'idgenerator' : unreferenced formal parameter
+  Menus.cpp
+  Generating Code...
+  
+BUSMASTER.rc(1454): error RC2135: file not found: ..\BIN\Release\BUSMASTER.exe.manifest
+  

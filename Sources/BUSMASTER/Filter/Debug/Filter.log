@@ -1,0 +1,35 @@
+﻿  MultiLanguage.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\stdAfx.h(81): warning C4192: automatically excluding 'ISequentialStream' while importing type library 'msxml6.dll'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\stdAfx.h(81): warning C4192: automatically excluding '_FILETIME' while importing type library 'msxml6.dll'
+..\Application\MultiLanguage.cpp(174): warning C4996: 'GetVersion': was declared deprecated
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110) : see declaration of 'GetVersion'
+..\Application\MultiLanguage.cpp(144): warning C4189: 'nPrimaryLang' : local variable is initialized but not referenced
+..\Application\MultiLanguage.cpp(146): warning C4189: 'lcid' : local variable is initialized but not referenced
+..\Application\MultiLanguage.cpp(145): warning C4189: 'nSubLang' : local variable is initialized but not referenced
+..\Application\MultiLanguage.cpp(328): warning C4189: 'nPrimaryLang' : local variable is initialized but not referenced
+..\Application\MultiLanguage.cpp(331): warning C4189: 'nLocales' : local variable is initialized but not referenced
+..\Application\MultiLanguage.cpp(330): warning C4189: 'lcid' : local variable is initialized but not referenced
+..\Application\MultiLanguage.cpp(329): warning C4189: 'nSubLang' : local variable is initialized but not referenced
+..\Application\MultiLanguage.cpp(388): warning C4189: 'nSubLang' : local variable is initialized but not referenced
+  MainSubListDlg.cpp
+  FilterConfigDlg.cpp
+FilterConfigDlg.cpp(62): warning C4189: 'pcStopStr' : local variable is initialized but not referenced
+FilterConfigDlg.cpp(510): warning C4018: '<' : signed/unsigned mismatch
+FilterConfigDlg.cpp(545): warning C4189: 'pMessage' : local variable is initialized but not referenced
+FilterConfigDlg.cpp(2608): warning C4018: '<=' : signed/unsigned mismatch
+FilterConfigDlg.cpp(2696): warning C4018: '<=' : signed/unsigned mismatch
+FilterConfigDlg.cpp(2733): warning C4018: '<=' : signed/unsigned mismatch
+C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_Datatypes.h(488): warning C4189: 'byVersion' : local variable is initialized but not referenced
+          C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_Datatypes.h(487) : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::pbGetConfigData(xmlNodePtr &) const'
+          FilterConfigDlg.cpp(591) : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>' being compiled
+  Filter.cpp
+C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_Datatypes.h(488): warning C4189: 'byVersion' : local variable is initialized but not referenced
+          C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_Datatypes.h(487) : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::pbGetConfigData(xmlNodePtr &) const'
+          Filter.cpp(127) : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>' being compiled
+  FlexListCtrl.cpp
+..\Utility\FlexListCtrl.cpp(161): warning C4189: 'wndParent' : local variable is initialized but not referenced
+..\Utility\FlexListCtrl.cpp(350): warning C4189: 'nTotalColumn' : local variable is initialized but not referenced
+..\Utility\FlexListCtrl.cpp(349): warning C4189: 'nTotalRow' : local variable is initialized but not referenced
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\Filter\Debug\Filter.dll) does not match the Linker's OutputFile property value (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Debug\Filter.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : fatal error LNK1104: cannot open file '..\..\Kernel\bin\Debug\Utilities.lib'

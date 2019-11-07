@@ -1,0 +1,60 @@
+﻿  CanNsCodeGenHelper.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  Filter_Datatypes.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.h(564): warning C5037: 'SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData' : une définition hors ligne d'un membre d'un modèle de classe ne peut pas avoir d'arguments par défaut
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.cpp(161): warning C4244: 'initialisation' : conversion de 'time_t' en 'UINT', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.cpp(285): warning C4456: la déclaration de 'pStpIdPtr' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.cpp(280): note: voir la déclaration de 'pStpIdPtr'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.cpp(915): warning C4244: '=' : conversion de 'INT' en 'BYTE', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\filter_datatypes.cpp(923): warning C4244: '=' : conversion de 'INT' en 'BYTE', perte possible de données
+  j1939NsCodeGenHelper.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  J1939_DataTypes.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\hashdefines.h(138): warning C4091: 'typedef ' : ignoré à gauche de 'eREPLAYMODE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\hashdefines.h(982): warning C4091: 'typedef ' : ignoré à gauche de 'eCONFIGDETAILS' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\common.h(30): warning C4091: 'typedef ' : ignoré à gauche de '<unnamed-enum-LOAD_CONFIG>' quand aucune variable n'est déclarée
+  LinNsCodeGenHelper.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+  Log_Datatypes.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\log_datatypes.cpp(260): warning C4245: '=' : conversion de 'int' en 'UINT', incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\log_datatypes.cpp(261): warning C4245: '=' : conversion de 'int' en 'UINT', incompatibilité signed/unsigned
+  MainSubEntry.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+  MsgSignal_Datatypes.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\msgsignal_datatypes.cpp(240): warning C4244: 'initialisation' : conversion de 'double' en 'UINT64', perte possible de données
+  NodeSimCodeGenerator.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\nodesimcodegenerator.cpp(368): warning C4129: ' ' : caractère de séquence d'échappement non reconnu
+  NSCodeGenHelperFactory.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+  ProjConfig_DataTypes.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+  UDS_DataTypes.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\uds_datatypes.h(24): warning C4091: 'typedef ' : ignoré à gauche de 'UDS_INTERFACE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\uds_datatypes.h(30): warning C4091: 'typedef ' : ignoré à gauche de 'DIAGNOSTIC_STANDARD' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\datatypes\uds_datatypes.h(38): warning C4091: 'typedef ' : ignoré à gauche de 'TYPE_OF_FRAME' quand aucune variable n'est déclarée
+  Génération de code en cours...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1397,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes\Release\DataTypes.lib) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\BIN\Libs\Release\DataTypes.lib) de Library. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Lib.OutputFile).
+  DataTypes.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes\Release\DataTypes.lib

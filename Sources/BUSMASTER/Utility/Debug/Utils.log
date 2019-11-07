@@ -1,0 +1,58 @@
+﻿  WaitIndicator.cpp
+  Utility_Thread.cpp
+  Utility_Structs.cpp
+  Utility.cpp
+Utility.cpp(805): warning C4244: 'initializing' : conversion from 'int' to 'short', possible loss of data
+Utility.cpp(841): warning C4244: 'initializing' : conversion from 'double' to 'UINT64', possible loss of data
+Utility.cpp(828): warning C4100: 'dataLength' : unreferenced formal parameter
+  UtilFunctions.cpp
+UtilFunctions.cpp(208): warning C4389: '!=' : signed/unsigned mismatch
+UtilFunctions.cpp(366): warning C4244: '=' : conversion from 'long' to 'UCHAR', possible loss of data
+UtilFunctions.cpp(367): warning C4244: '=' : conversion from 'long' to 'UCHAR', possible loss of data
+  TimeManager.cpp
+  SortData.cpp
+  SignalMatrix.cpp
+  SignalDetailsDlg.cpp
+  ReadFile.cpp
+ReadFile.cpp(8): warning C4307: '*' : integral constant overflow
+ReadFile.cpp(8): warning C4245: '=' : conversion from 'int' to 'unsigned long', signed/unsigned mismatch
+ReadFile.cpp(166): warning C4245: 'initializing' : conversion from 'int' to 'size_t', signed/unsigned mismatch
+ReadFile.cpp(177): warning C4245: '=' : conversion from 'int' to 'size_t', signed/unsigned mismatch
+ReadFile.cpp(218): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+  RadixEdit.cpp
+  OffScreenDC.cpp
+  NumSpinCtrl.cpp
+  NumEdit.cpp
+NumEdit.cpp(298): warning C4189: 'm_pMainWnd' : local variable is initialized but not referenced
+  MultiLanguageSupport.cpp
+  MsgInterpretation.cpp
+MsgInterpretation.cpp(1003): warning C4189: 'unSigLen' : local variable is initialized but not referenced
+  KeyNumEdit.cpp
+  BaseImportLogFile.cpp
+  FlickerFreeTree.cpp
+FlickerFreeTree.cpp(55): warning C4189: 'bSuccess' : local variable is initialized but not referenced
+  FlickerFreeListCtrl.cpp
+FlickerFreeListCtrl.cpp(121): warning C4189: 'bSuccess' : local variable is initialized but not referenced
+  Generating Code...
+  Compiling...
+  FlexListCtrl.cpp
+FlexListCtrl.cpp(161): warning C4189: 'wndParent' : local variable is initialized but not referenced
+FlexListCtrl.cpp(350): warning C4189: 'nTotalColumn' : local variable is initialized but not referenced
+FlexListCtrl.cpp(349): warning C4189: 'nTotalRow' : local variable is initialized but not referenced
+  FFListCtrl.cpp
+  EditItem.cpp
+  DirectoryWatcher.cpp
+DirectoryWatcher.cpp(341): warning C4189: 'hResult' : local variable is initialized but not referenced
+  ComboItem.cpp
+  ColumnTreeWnd.cpp
+ColumnTreeWnd.cpp(368): warning C4189: 'lx' : local variable is initialized but not referenced
+  ColumnTreeCtrl.cpp
+  ColorSelector.cpp
+ColorSelector.cpp(91): warning C4189: 'clrRefObj' : local variable is initialized but not referenced
+  ButtonItem.cpp
+  AlphanumiricEdit.cpp
+  AlphaChar.cpp
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\Utility\Debug\Utils.lib) does not match the Library's OutputFile property value (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\BIN\Libs\Debug\Utils.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
+  Utils.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\Utility\Debug\Utils.lib

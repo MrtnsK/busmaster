@@ -1,0 +1,9 @@
+﻿  CAN_STUB.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_stub\can_stub.cpp(913): warning C4100: 'InitData' : paramètre formel non référencé
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_stub\can_stub.cpp(1308): warning C4100: 'unChannelCount' : paramètre formel non référencé
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_stub\can_stub.cpp(1308): warning C4100: 'bIsHardwareListed' : paramètre formel non référencé
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_stub\can_stub.cpp(1308): warning C4100: 'dwDriverId' : paramètre formel non référencé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\CAN_STUB\Release\CAN_STUB.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Release\CAN_STUB.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+     Création de la bibliothèque C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\CAN_STUB.lib et de l'objet C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\CAN_STUB.exp
+  CAN_STUB.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\CAN_STUB\Release\CAN_STUB.dll

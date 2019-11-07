@@ -1,0 +1,11 @@
+﻿  CAN_ISOLAR_EVE_VCAN.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_isolar_eve_vcan\can_isolar_eve_vcan.cpp(200): warning C4244: '=' : conversion de 'int' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_isolar_eve_vcan\can_isolar_eve_vcan.cpp(740): warning C4100: 'InitData' : paramètre formel non référencé
+c:\users\kmartin\desktop\origincpy\sources\busmaster\can_isolar_eve_vcan\can_isolar_eve_vcan.cpp(833): warning C4244: '=' : conversion de 'ECONTR_STATUS' en 'unsigned short', perte possible de données
+  CAN_ISOLAR_EVE_VCAN_stdafx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  Génération de code en cours...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\CAN_ISOLAR_EVE_VCAN\Release\CAN_ISOLAR_EVE_VCAN.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Release\CAN_ISOLAR_EVE_VCAN.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+     Création de la bibliothèque C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\CAN_ISOLAR_EVE_VCAN.lib et de l'objet C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\CAN_ISOLAR_EVE_VCAN.exp
+  CAN_ISOLAR_EVE_VCAN.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\CAN_ISOLAR_EVE_VCAN\Release\CAN_ISOLAR_EVE_VCAN.dll

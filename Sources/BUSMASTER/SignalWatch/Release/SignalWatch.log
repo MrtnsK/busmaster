@@ -1,0 +1,65 @@
+﻿  MultiLanguage.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\multilanguage.cpp(174): warning C4996: 'GetVersion': a été déclaré déconseillé
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(110): note: voir la déclaration de 'GetVersion'
+  BaseSignalWatchImp.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\signalwatch\basesignalwatchimp.cpp(103): warning C4389: '==' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\signalwatch\basesignalwatchimp.cpp(114): warning C4389: '==' : incompatibilité signed/unsigned
+  CheckBoxTree.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  SignalWatch.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+  SignalWatch_CAN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\signalwatch\signalwatch_can.cpp(149): warning C4456: la déclaration de 'itr' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\signalwatch\signalwatch_can.cpp(131): note: voir la déclaration de 'itr'
+  SignalWatch_J1939.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\signalwatch\signalwatch_j1939.cpp(144): warning C4456: la déclaration de 'itr' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\signalwatch\signalwatch_j1939.cpp(126): note: voir la déclaration de 'itr'
+  SignalWatchListBox.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\hashdefines.h(138): warning C4091: 'typedef ' : ignoré à gauche de 'eREPLAYMODE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\hashdefines.h(982): warning C4091: 'typedef ' : ignoré à gauche de 'eCONFIGDETAILS' quand aucune variable n'est déclarée
+  MsgSignalSelect.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\hashdefines.h(138): warning C4091: 'typedef ' : ignoré à gauche de 'eREPLAYMODE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\hashdefines.h(982): warning C4091: 'typedef ' : ignoré à gauche de 'eCONFIGDETAILS' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\signalwatch\msgsignalselect.cpp(280): warning C4456: la déclaration de 'sigName' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\signalwatch\msgsignalselect.cpp(268): note: voir la déclaration de 'sigName'
+  SignalWatch_LIN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\signalwatch\signalwatch_lin.cpp(154): warning C4456: la déclaration de 'itr' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\signalwatch\signalwatch_lin.cpp(136): note: voir la déclaration de 'itr'
+  SigWatchDlg.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\hashdefines.h(138): warning C4091: 'typedef ' : ignoré à gauche de 'eREPLAYMODE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\hashdefines.h(982): warning C4091: 'typedef ' : ignoré à gauche de 'eCONFIGDETAILS' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\common.h(30): warning C4091: 'typedef ' : ignoré à gauche de '<unnamed-enum-LOAD_CONFIG>' quand aucune variable n'est déclarée
+  Génération de code en cours...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\SignalWatch\Release\SignalWatch.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Release\SignalWatch.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+  Utilities.lib(MsgBufVSE.obj) : .netmodule ou module MSIL compilé avec /GL trouvé ; redémarrage de l'édition de liens avec /LTCG ; ajoutez /LTCG à la ligne de commande de l'édition de liens pour améliorer les performances de l'Éditeur de liens
+     CrÚation de la bibliothÞque C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\SignalWatch.lib et de l'objet C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\SignalWatch.exp
+  GÚnÚration de code en cours
+  Fin de la gÚnÚration du code
+  SignalWatch.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\SignalWatch\Release\SignalWatch.dll

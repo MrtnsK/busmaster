@@ -1,0 +1,52 @@
+﻿  PSDI_CAN.cpp
+C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_Datatypes.h(488): warning C4189: 'byVersion' : local variable is initialized but not referenced
+          C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_Datatypes.h(487) : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::pbGetConfigData(xmlNodePtr &) const'
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\psdi_can\MsgContainer_CAN.h(84) : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>' being compiled
+  MsgContainer_LIN.cpp
+MsgContainer_LIN.cpp(47): warning C4005: 'MAKE_CHANNEL_SPECIFIC_MESSAGE' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\HashDefines.h(719) : see previous definition of 'MAKE_CHANNEL_SPECIFIC_MESSAGE'
+MsgContainer_LIN.cpp(121): warning C4189: 'sMsg' : local variable is initialized but not referenced
+MsgContainer_LIN.cpp(523): warning C4189: 'nCount' : local variable is initialized but not referenced
+MsgContainer_LIN.cpp(640): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+MsgContainer_LIN.cpp(643): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MsgContainer_LIN.cpp(669): warning C4245: 'initializing' : conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+MsgContainer_LIN.cpp(729): warning C4244: '=' : conversion from 'int' to 'BYTE', possible loss of data
+MsgContainer_LIN.cpp(757): warning C4244: '=' : conversion from 'eLinBusEventType' to 'USHORT', possible loss of data
+MsgContainer_LIN.cpp(1008): warning C4189: 'hResult' : local variable is initialized but not referenced
+C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_Datatypes.h(488): warning C4189: 'byVersion' : local variable is initialized but not referenced
+          C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_Datatypes.h(487) : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN>::pbGetConfigData(xmlNodePtr &) const'
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\psdi_can\MsgContainer_LIN.h(83) : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_LIN>' being compiled
+  MsgContainer_J1939.cpp
+MsgContainer_J1939.cpp(44): warning C4005: 'MAKE_CHANNEL_SPECIFIC_MESSAGE' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\HashDefines.h(719) : see previous definition of 'MAKE_CHANNEL_SPECIFIC_MESSAGE'
+MsgContainer_J1939.cpp(45): warning C4005: 'MAKE_SOURCE_SPECIFIC_MESSAGE' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\HashDefines.h(720) : see previous definition of 'MAKE_SOURCE_SPECIFIC_MESSAGE'
+MsgContainer_J1939.cpp(46): warning C4005: 'MAKE_DEST_SPECIFIC_MESSAGE' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\HashDefines.h(721) : see previous definition of 'MAKE_DEST_SPECIFIC_MESSAGE'
+MsgContainer_J1939.cpp(47): warning C4005: 'MAKE_TYPE_SPECIFIC_MESSAGE' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\application\HashDefines.h(722) : see previous definition of 'MAKE_TYPE_SPECIFIC_MESSAGE'
+MsgContainer_J1939.cpp(517): warning C4189: 'nCount' : local variable is initialized but not referenced
+MsgContainer_J1939.cpp(699): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MsgContainer_J1939.cpp(978): warning C4189: 'hResult' : local variable is initialized but not referenced
+C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_Datatypes.h(488): warning C4189: 'byVersion' : local variable is initialized but not referenced
+          C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_Datatypes.h(487) : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_J1939>::pbGetConfigData(xmlNodePtr &) const'
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\psdi_can\MsgContainer_J1939.h(77) : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_J1939>' being compiled
+  MsgContainer_CAN.cpp
+MsgContainer_CAN.cpp(46): warning C4005: 'MAKE_CHANNEL_SPECIFIC_MESSAGE' : macro redefinition
+          c:\users\kmartin\desktop\origincpy\sources\kernel\utilities\..\..\Busmaster\Application\Hashdefines.h(719) : see previous definition of 'MAKE_CHANNEL_SPECIFIC_MESSAGE'
+MsgContainer_CAN.cpp(369): warning C4189: 'h_Evaluate' : local variable is initialized but not referenced
+MsgContainer_CAN.cpp(639): warning C4189: 'nCount' : local variable is initialized but not referenced
+MsgContainer_CAN.cpp(752): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MsgContainer_CAN.cpp(785): warning C4244: '=' : conversion from 'int' to 'BYTE', possible loss of data
+MsgContainer_CAN.cpp(1013): warning C4189: 'hResult' : local variable is initialized but not referenced
+C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_Datatypes.h(488): warning C4189: 'byVersion' : local variable is initialized but not referenced
+          C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\DataTypes/Filter_Datatypes.h(487) : while compiling class template member function 'void SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>::pbGetConfigData(xmlNodePtr &) const'
+          c:\users\kmartin\desktop\origincpy\sources\busmaster\psdi_can\MsgContainer_CAN.h(84) : see reference to class template instantiation 'SFILTERAPPLIED<tagSFRAMEINFO_BASIC_CAN>' being compiled
+  MessageAttrib.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\stdafx.h(81): warning C4192: automatically excluding 'ISequentialStream' while importing type library 'msxml6.dll'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\stdafx.h(81): warning C4192: automatically excluding '_FILETIME' while importing type library 'msxml6.dll'
+  Generating Code...
+c:\users\kmartin\desktop\origincpy\sources\busmaster\psdi_can\msgcontainer_can.cpp(1020): warning C4715: 'CMsgContainerCAN::GetMessageDetails' : not all control paths return a value
+c:\users\kmartin\desktop\origincpy\sources\busmaster\psdi_can\msgcontainer_j1939.cpp(1001): warning C4715: 'CMsgContainerJ1939::GetMessageDetails' : not all control paths return a value
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\PSDI_CAN\Debug\PSDI_CAN.dll) does not match the Linker's OutputFile property value (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Debug\PSDI_CAN.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : fatal error LNK1104: cannot open file '..\..\Kernel\bin\Debug\Utilities.lib'

@@ -1,0 +1,784 @@
+﻿  CNVTCImageList.cpp
+  CNVTCToolBar.cpp
+  AppServices.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\appservices.cpp(169): warning C4244: 'initialisation' : conversion de 'double' en 'unsigned __int64', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\appservices.cpp(180): warning C4244: 'initialisation' : conversion de 'unsigned __int64' en 'double', perte possible de données
+  AppServicesCAN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  AppServicesJ1939.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  AppServicesLIN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  BuildProgram.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\buildprogram.cpp(447): warning C4456: la déclaration de 'omStrDLLFile' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\buildprogram.cpp(441): note: voir la déclaration de 'omStrDLLFile'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\buildprogram.cpp(448): warning C4456: la déclaration de 'acStrShortPath' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\buildprogram.cpp(308): note: voir la déclaration de 'acStrShortPath'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\buildprogram.cpp(572): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\buildprogram.cpp(572): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\buildprogram.cpp(572): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\buildprogram.cpp(589): warning C4458: la déclaration de 'm_omStrArray' masque le membre de classe
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\buildprogram.h(70): note: voir la déclaration de 'CBuildProgram::m_omStrArray'
+  BusEventHandlerDlg.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+  ConvertCpp.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\convertcpp.cpp(117): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\convertcpp.cpp(124): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\convertcpp.cpp(151): warning C4456: la déclaration de 'nIndex' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\convertcpp.cpp(143): note: voir la déclaration de 'nIndex'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\convertcpp.cpp(294): warning C4456: la déclaration de 'omBusFNPrototype' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\convertcpp.cpp(250): note: voir la déclaration de 'omBusFNPrototype'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\convertcpp.cpp(304): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\convertcpp.cpp(304): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\convertcpp.cpp(304): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\convertcpp.cpp(304): warning C4477: 'sprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 2 est de type 'CString'
+  DefineTimerHandler.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  DLLHandlerDlg.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  EditFrameWnd.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  ErrHandlerDlg.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  ErrHandlerDlgLIN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  EventHandlerDlg.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\eventhandlerdlg.cpp(75): warning C4456: la déclaration de 'pButton' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\eventhandlerdlg.cpp(62): note: voir la déclaration de 'pButton'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\eventhandlerdlg.cpp(84): warning C4456: la déclaration de 'pButton' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\eventhandlerdlg.cpp(62): note: voir la déclaration de 'pButton'
+  ExecuteFunc.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2514): warning C4456: la déclaration de 'nMsgID' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2494): note: voir la déclaration de 'nMsgID'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2537): warning C4245: '=' : conversion de 'int' en 'DWORD', incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2606): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2606): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2606): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2640): warning C4457: la déclaration de 'nMsgID' masque le paramètre de fonction
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2620): note: voir la déclaration de 'nMsgID'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2797): warning C4456: la déclaration de 'unMsgIDFrom' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2781): note: voir la déclaration de 'unMsgIDFrom'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2798): warning C4456: la déclaration de 'unMsgIDTo' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2782): note: voir la déclaration de 'unMsgIDTo'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2866): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2866): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2866): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2907): warning C4456: la déclaration de 'omStrTemp' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2889): note: voir la déclaration de 'omStrTemp'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2946): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2946): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executefunc.cpp(2946): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+  ExecuteManager.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executemanager.cpp(937): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executemanager.cpp(937): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executemanager.cpp(937): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executemanager.cpp(963): warning C4456: la déclaration de 'bFreeLibrary' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\executemanager.cpp(856): note: voir la déclaration de 'bFreeLibrary'
+  ExploreMsgSg.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\exploremsgsg.cpp(281): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\exploremsgsg.cpp(281): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\exploremsgsg.cpp(281): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+  FileView.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  FnsTreeView.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\fnstreeview.cpp(1452): warning C4456: la déclaration de 'omStr' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\fnstreeview.cpp(1402): note: voir la déclaration de 'omStr'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\fnstreeview.cpp(1832): warning C4457: la déclaration de 'hItem' masque le paramètre de fonction
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\fnstreeview.cpp(1716): note: voir la déclaration de 'hItem'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\fnstreeview.cpp(2744): warning C4456: la déclaration de 'nIndex' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\fnstreeview.cpp(2709): note: voir la déclaration de 'nIndex'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\fnstreeview.cpp(2896): warning C4457: la déclaration de 'hItem' masque le paramètre de fonction
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\fnstreeview.cpp(2816): note: voir la déclaration de 'hItem'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\fnstreeview.cpp(3085): warning C4456: la déclaration de 'pos' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\fnstreeview.cpp(3068): note: voir la déclaration de 'pos'
+  Génération de code en cours...
+  Compilation en cours...
+  FunctionEditorBase.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  FunctionEditorDoc.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(181): warning C4456: la déclaration de 'omStr' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(153): note: voir la déclaration de 'omStr'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(190): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(190): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(190): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(325): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(325): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(325): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(366): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(373): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(574): warning C4456: la déclaration de 'nIndex' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(557): note: voir la déclaration de 'nIndex'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(619): warning C4456: la déclaration de 'nIndex' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(557): note: voir la déclaration de 'nIndex'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(1047): warning C4456: la déclaration de 'nIndex' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(1039): note: voir la déclaration de 'nIndex'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(1376): warning C4456: la déclaration de 'unCount' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(1157): note: voir la déclaration de 'unCount'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(1936): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(1936): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(1936): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(1947): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(1947): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(1947): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(2059): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(2059): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(2059): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(2064): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(2064): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(2064): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(2069): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(2069): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(2069): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(2099): warning C4456: la déclaration de 'omStrFunctionDecTemp' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\functioneditordoc.cpp(2085): note: voir la déclaration de 'omStrFunctionDecTemp'
+  FunctionView.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  GlobalObj.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  HandlerFunc.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\handlerfunc.cpp(618): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\handlerfunc.cpp(618): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\handlerfunc.cpp(618): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+  IncludeHeaderDlg.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  KeyValue.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  MsgHandlerDlg.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\msghandlerdlg.cpp(244): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\msghandlerdlg.cpp(244): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\msghandlerdlg.cpp(244): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\msghandlerdlg.cpp(243): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\msghandlerdlg.cpp(243): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\msghandlerdlg.cpp(243): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\msghandlerdlg.cpp(242): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\msghandlerdlg.cpp(242): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\msghandlerdlg.cpp(242): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+  MultiLanguage.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\multilanguage.cpp(174): warning C4996: 'GetVersion': a été déclaré déconseillé
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(110): note: voir la déclaration de 'GetVersion'
+  NodeDetailsDlg.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\nodedetailsdlg.cpp(434): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\nodedetailsdlg.cpp(441): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+  NodeSim.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\nodesim.cpp(120): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\nodesim.cpp(120): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\nodesim.cpp(120): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+  NodeSimEx.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+  NodeSimEx_stdafx.cpp
+  OffScreenDC.cpp
+  OutWnd.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  SelectFunctions.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\selectfunctions.cpp(168): warning C4456: la déclaration de 'nCount' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\selectfunctions.cpp(155): note: voir la déclaration de 'nCount'
+  SetResetTimer.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  Sim_MDIChildBase.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+  SimSysManager.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysmanager.cpp(542): warning C4244: '=' : conversion de 'int' en 'BYTE', perte possible de données
+  SimSysNodeInfo.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(561): warning C4553: '==' : résultat de l'expression non utilisé ; souhaitiez-vous utiliser '=' ?
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1083): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1083): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1083): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1083): warning C4477: 'sprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'CString'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1083): warning C4477: 'sprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 2 est de type 'CString'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1088): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1088): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1088): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1087): warning C4477: 'sprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'CString'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1093): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1093): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1093): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1092): warning C4477: 'sprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'CString'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1107): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1107): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1107): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsysnodeinfo.cpp(1107): warning C4477: 'sprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'CString'
+  Génération de code en cours...
+  Compilation en cours...
+  SimSysTreeView.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsystreeview.cpp(203): warning C4458: la déclaration de 'mpGlobalObj' masque le membre de classe
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsystreeview.h(119): note: voir la déclaration de 'CSimSysTreeView::mpGlobalObj'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsystreeview.cpp(203): warning C4458: la déclaration de 'mpSimSysManager' masque le membre de classe
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsystreeview.h(114): note: voir la déclaration de 'CSimSysTreeView::mpSimSysManager'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsystreeview.cpp(755): warning C4840: utilisation non portable de la classe 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>' en tant qu'argument d'une fonction variadique
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsystreeview.cpp(755): note: 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT' n'est pas trivial
+          with
+          [
+              _CharType=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\cstringt.h(1026): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT'
+          with
+          [
+              _CharType=char
+          ]
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsystreeview.cpp(755): note: le constructeur et le destructeur ne sont pas appelés ; une copie de la classe au niveau du bit est passée en tant qu'argument
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxstr.h(87): note: voir la déclaration de 'ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>'
+          with
+          [
+              _CharType=char
+          ]
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsystreeview.cpp(755): warning C4477: 'sprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'CString'
+  SimSysWnd.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+  UtlityDlg.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\include\basedefs.h(51): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVEHANDLER' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\busmasterdriverinterface\include\j1939driverdefines.h(238): warning C4091: 'typedef ' : ignoré à gauche de 'EJ1939_MSG_TYPE' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\utlitydlg.cpp(146): warning C4456: la déclaration de 'nIndex' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\utlitydlg.cpp(134): note: voir la déclaration de 'nIndex'
+  Génération de code en cours...
+c:\users\kmartin\desktop\origincpy\sources\busmaster\nodesimex\simsystreeview.cpp(266): warning C4703: variable de pointeur locale potentiellement non initialisée 'hNode' utilisée
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\NodeSimEx\Release\NodeSimEx.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\BIN\Release\NodeSimEx.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+  Utilities.lib(MsgBufVSE.obj) : .netmodule ou module MSIL compilé avec /GL trouvé ; redémarrage de l'édition de liens avec /LTCG ; ajoutez /LTCG à la ligne de commande de l'édition de liens pour améliorer les performances de l'Éditeur de liens
+     CrÚation de la bibliothÞque C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\NodeSimEx.lib et de l'objet C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\NodeSimEx.exp
+  GÚnÚration de code en cours
+  Fin de la gÚnÚration du code
+  NodeSimEx.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\NodeSimEx\Release\NodeSimEx.dll

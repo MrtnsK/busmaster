@@ -1,0 +1,16 @@
+﻿  MultiLanguage.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\application\multilanguage.cpp(174): warning C4996: 'GetVersion': a été déclaré déconseillé
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(110): note: voir la déclaration de 'GetVersion'
+  SignalDefiner.cpp
+  SignalDefinerDlg.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\signaldefiner\signaldefinerdlg.cpp(12): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\signaldefiner\signaldefinerdlg.cpp(298): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\signaldefiner\signaldefinerdlg.cpp(319): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\SignalDefiner\Release\SignalDefiner.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Release\SignalDefiner.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+     Création de la bibliothèque C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\SignalDefiner.lib et de l'objet C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\SignalDefiner.exp
+  Génération de code en cours
+  0 of 262 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+  SignalDefiner.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\SignalDefiner\Release\SignalDefiner.dll

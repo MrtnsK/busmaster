@@ -1,0 +1,39 @@
+﻿  CommanDIL_LIN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(451): warning C4244: '=' : conversion de 'int' en 'char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(561): warning C4244: '=' : conversion de 'unsigned int' en 'UCHAR', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(589): warning C4244: '=' : conversion de 'int' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(591): warning C4456: la déclaration de 'itrCommands' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(587): note: voir la déclaration de 'itrCommands'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(593): warning C4244: '=' : conversion de 'int' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(810): warning C4244: '=' : conversion de 'int' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(823): warning C4244: '=' : conversion de 'int' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(845): warning C4018: '>=' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(863): warning C4244: '=' : conversion de '_Ty1' en 'unsigned char', perte possible de données
+          with
+          [
+              _Ty1=int
+          ]
+  HardwareListing.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelisting.cpp(538): warning C4018: '<' : incompatibilité signed/unsigned
+  LIN_Kvaser.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_kvaser\lin_kvaser.cpp(124): warning C4018: '>=' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_kvaser\lin_kvaser.cpp(138): warning C4244: '=' : conversion de 'LONGLONG' en 'unsigned long', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_kvaser\lin_kvaser.cpp(473): warning C4018: '>=' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_kvaser\lin_kvaser.cpp(475): warning C4456: la déclaration de 'i' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_kvaser\lin_kvaser.cpp(441): note: voir la déclaration de 'i'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_kvaser\lin_kvaser.cpp(1232): warning C4244: '=' : conversion de 'ECONTR_STATUS' en 'unsigned short', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_kvaser\lin_kvaser.cpp(1257): warning C4018: '<' : incompatibilité signed/unsigned
+  LIN_Kvaser_stdafx.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\LIN_Kvaser\Release\LIN_Kvaser.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\release\LIN_Kvaser.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+     Création de la bibliothèque Release\LIN_Kvaser.lib et de l'objet Release\LIN_Kvaser.exp
+  Génération de code en cours
+  0 of 1153 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+  LIN_Kvaser.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\LIN_Kvaser\Release\LIN_Kvaser.dll

@@ -1,0 +1,44 @@
+﻿  CommanDIL_LIN.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(451): warning C4244: '=' : conversion de 'int' en 'char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(561): warning C4244: '=' : conversion de 'unsigned int' en 'UCHAR', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(589): warning C4244: '=' : conversion de 'int' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(591): warning C4456: la déclaration de 'itrCommands' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(587): note: voir la déclaration de 'itrCommands'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(593): warning C4244: '=' : conversion de 'int' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(810): warning C4244: '=' : conversion de 'int' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(823): warning C4244: '=' : conversion de 'int' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(845): warning C4018: '>=' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\commandil_lin.cpp(863): warning C4244: '=' : conversion de '_Ty1' en 'unsigned char', perte possible de données
+          with
+          [
+              _Ty1=int
+          ]
+  HardwareListing.cpp
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\dil_interface\hardwarelisting.cpp(538): warning C4018: '<' : incompatibilité signed/unsigned
+  LIN_ETAS_BOA.cpp
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa_defs.h(213): warning C4245: '=' : conversion de 'int' en 'UINT', incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\protocolsdefinitions.h(23): warning C4091: 'typedef ' : ignoré à gauche de 'eBUSEVENT' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\kernel\protocoldefinitions\ccompumethod.h(27): warning C4091: 'typedef ' : ignoré à gauche de 'eCompuType' quand aucune variable n'est déclarée
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa.cpp(709): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa.cpp(768): warning C4245: 'initialisation' : conversion de 'int' en 'unsigned int', incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa.cpp(1157): warning C4244: '=' : conversion de 'uint32' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa.cpp(1183): warning C4244: '=' : conversion de 'uint32' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa.cpp(1184): warning C4244: '=' : conversion de 'uint32' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa.cpp(1190): warning C4244: '=' : conversion de 'uint32' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa.cpp(1197): warning C4244: '=' : conversion de 'uint32' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa.cpp(1198): warning C4244: '=' : conversion de 'uint32' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa.cpp(1199): warning C4244: '=' : conversion de 'uint32' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa.cpp(1227): warning C4244: '=' : conversion de 'uint32' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa.cpp(1228): warning C4244: '=' : conversion de 'uint32' en 'unsigned char', perte possible de données
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa.cpp(1306): warning C4018: '>=' : incompatibilité signed/unsigned
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa.cpp(1619): warning C4456: la déclaration de 'i' masque la déclaration locale précédente
+  c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa.cpp(1596): note: voir la déclaration de 'i'
+c:\users\kmartin\desktop\origincpy\sources\busmaster\lin_etas_boa\lin_etas_boa.cpp(1630): warning C4018: '>=' : incompatibilité signed/unsigned
+  LIN_ETAS_BOA_stdafx.cpp
+  Génération de code en cours...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\LIN_ETAS_BOA\Release\LIN_ETAS_BOA.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Release\LIN_ETAS_BOA.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+     Création de la bibliothèque C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\CAN_Vector_XL.lib et de l'objet C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/Release\CAN_Vector_XL.exp
+  LIN_ETAS_BOA.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\LIN_ETAS_BOA\Release\LIN_ETAS_BOA.dll
