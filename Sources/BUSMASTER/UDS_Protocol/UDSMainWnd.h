@@ -108,13 +108,13 @@ public:
     CFont m_Font;
 
     // Declaración de funciones
-    int	vInitializeUDSfFields();
+    void	vInitializeUDSfFields();
 
     /**
     * This function is called to set in the UDS_Main_Window the value of the CanID editor Box
     * It takes into account the Interface that has been chosen and the values os SA and TA
     */
-    int	setValue();
+    void	setValue();
 
     /**
     * This function is called by framework when user wants to Transmit a  message

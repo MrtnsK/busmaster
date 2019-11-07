@@ -871,7 +871,7 @@ void CUDSMainWnd::OnEnChangeTA()
 //________________________________________________________________________________________________________________________________________________________________
 //This function is called to set in the UDS_Main_Window the value of the CanID editor Box
 
-void CUDSMainWnd::setValue()
+void   CUDSMainWnd::setValue()
 {
 
     switch (fInterface)
@@ -909,7 +909,6 @@ void CUDSMainWnd::setValue()
 
         }
         break;
-
     }
 }
 //________________________________________________________________________________________________________________________________________________________________

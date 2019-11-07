@@ -1,12 +1,1 @@
-﻿  operations_file.cpp
-c:\users\kmartin\desktop\origincpy\sources\busmaster\projectconfiguration\operations_file.cpp(275): warning C4456: la déclaration de 'acBuffer' masque la déclaration locale précédente
-  c:\users\kmartin\desktop\origincpy\sources\busmaster\projectconfiguration\operations_file.cpp(243): note: voir la déclaration de 'acBuffer'
-  ProjConfig.cpp
-  projConfigManager.cpp
-  ProjectConfiguration.cpp
-  Génération de code en cours...
-c:\users\kmartin\desktop\origincpy\sources\busmaster\projectconfiguration\operations_file.cpp(378): warning C4706: assignation au sein d'une expression conditionnelle
-c:\users\kmartin\desktop\origincpy\sources\busmaster\projectconfiguration\operations_file.cpp(418): warning C4706: assignation au sein d'une expression conditionnelle
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\ProjectConfiguration\.\Release\ProjectConfiguration.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Release\ProjectConfiguration.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
-     Création de la bibliothèque C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/.\Release\ProjectConfiguration.lib et de l'objet C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\/BIN/Libs/.\Release\ProjectConfiguration.exp
-  ProjectConfiguration.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\ProjectConfiguration\.\Release\ProjectConfiguration.dll
+﻿

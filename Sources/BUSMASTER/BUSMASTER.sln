@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataTypes", "DataTypes\DataTypes.vcxproj", "{5D1AB9D9-755F-4743-AE73-83B7D5FCCD65}"
 EndProject
@@ -75,11 +75,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CAN_VSCOM", "CAN_VSCOM\CAN_
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DMGraph", "EXTERNAL\DmGraph\DMGraph.vcxproj", "{9D8AF453-01BC-44C9-9753-568BCEA38D4E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CAN_i-VIEW", "CAN_iVIEW\CAN_i-VIEW.vcxproj", "{60225C85-3C15-4DA1-8E5D-17453A3AA0CD}"
-	ProjectSection(ProjectDependencies) = postProject
-		{4A20171C-51DB-4E82-BCE0-5E3EEB070566} = {4A20171C-51DB-4E82-BCE0-5E3EEB070566}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CAN_IXXAT_VCI", "CAN_IXXAT_VCI\CAN_IXXAT_VCI.vcxproj", "{F920F538-A4B0-4EB6-81FC-6011E9C1806F}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -412,16 +407,6 @@ Global
 		{9D8AF453-01BC-44C9-9753-568BCEA38D4E}.Unicode Release MinSize|Win32.Build.0 = Unicode Release MinSize|Win32
 		{9D8AF453-01BC-44C9-9753-568BCEA38D4E}.Unicode Release|Win32.ActiveCfg = Unicode Release MinSize|Win32
 		{9D8AF453-01BC-44C9-9753-568BCEA38D4E}.Unicode Release|Win32.Build.0 = Unicode Release MinSize|Win32
-		{60225C85-3C15-4DA1-8E5D-17453A3AA0CD}.Debug|Win32.ActiveCfg = Debug|Win32
-		{60225C85-3C15-4DA1-8E5D-17453A3AA0CD}.Debug|Win32.Build.0 = Debug|Win32
-		{60225C85-3C15-4DA1-8E5D-17453A3AA0CD}.Release|Win32.ActiveCfg = Release|Win32
-		{60225C85-3C15-4DA1-8E5D-17453A3AA0CD}.Release|Win32.Build.0 = Release|Win32
-		{60225C85-3C15-4DA1-8E5D-17453A3AA0CD}.Unicode Debug|Win32.ActiveCfg = Debug|Win32
-		{60225C85-3C15-4DA1-8E5D-17453A3AA0CD}.Unicode Debug|Win32.Build.0 = Debug|Win32
-		{60225C85-3C15-4DA1-8E5D-17453A3AA0CD}.Unicode Release MinSize|Win32.ActiveCfg = Release|Win32
-		{60225C85-3C15-4DA1-8E5D-17453A3AA0CD}.Unicode Release MinSize|Win32.Build.0 = Release|Win32
-		{60225C85-3C15-4DA1-8E5D-17453A3AA0CD}.Unicode Release|Win32.ActiveCfg = Release|Win32
-		{60225C85-3C15-4DA1-8E5D-17453A3AA0CD}.Unicode Release|Win32.Build.0 = Release|Win32
 		{F920F538-A4B0-4EB6-81FC-6011E9C1806F}.Debug|Win32.ActiveCfg = Debug|Win32
 		{F920F538-A4B0-4EB6-81FC-6011E9C1806F}.Debug|Win32.Build.0 = Debug|Win32
 		{F920F538-A4B0-4EB6-81FC-6011E9C1806F}.Release|Win32.ActiveCfg = Release|Win32
@@ -563,6 +548,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D746E54-64EE-4F95-B40B-1BF2F7D5CA7F}
 	EndGlobalSection
 	GlobalSection(Performance) = preSolution
 		HasPerformanceSessions = true
