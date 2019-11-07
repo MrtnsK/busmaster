@@ -1,6 +1,0 @@
-@INCLUDE               = Doxyfile
-PROJECT_NAME           = MHS_CNFG
-PROJECT_BRIEF          = MHS_CNFG
-OUTPUT_DIRECTORY       = out/MHS_CNFG
-STRIP_FROM_PATH        = ../../Sources/MHS_CNFG
-INPUT                  = ../../Sources/MHS_CNFG

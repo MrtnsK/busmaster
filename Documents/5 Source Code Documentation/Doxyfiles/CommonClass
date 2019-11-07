@@ -1,6 +1,0 @@
-@INCLUDE               = Doxyfile
-PROJECT_NAME           = CommonClass
-PROJECT_BRIEF          = CommonClass
-OUTPUT_DIRECTORY       = out/CommonClass
-STRIP_FROM_PATH        = ../../Sources/CommonClass
-INPUT                  = ../../Sources/CommonClass

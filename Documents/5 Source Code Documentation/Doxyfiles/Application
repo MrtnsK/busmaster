@@ -1,6 +1,0 @@
-@INCLUDE               = Doxyfile
-PROJECT_NAME           = Application
-PROJECT_BRIEF          = Application
-OUTPUT_DIRECTORY       = out/Application
-STRIP_FROM_PATH        = ../../Sources/Application
-INPUT                  = ../../Sources/Application

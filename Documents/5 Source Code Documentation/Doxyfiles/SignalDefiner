@@ -1,6 +1,0 @@
-@INCLUDE               = Doxyfile
-PROJECT_NAME           = SignalDefiner
-PROJECT_BRIEF          = SignalDefiner
-OUTPUT_DIRECTORY       = out/SignalDefiner
-STRIP_FROM_PATH        = ../../Sources/SignalDefiner
-INPUT                  = ../../Sources/SignalDefiner

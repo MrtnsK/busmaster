@@ -1,6 +1,0 @@
-@INCLUDE               = Doxyfile
-PROJECT_NAME           = Filter
-PROJECT_BRIEF          = Filter
-OUTPUT_DIRECTORY       = out/Filter
-STRIP_FROM_PATH        = ../../Sources/Filter
-INPUT                  = ../../Sources/Filter

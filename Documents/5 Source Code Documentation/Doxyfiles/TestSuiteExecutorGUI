@@ -1,6 +1,0 @@
-@INCLUDE               = Doxyfile
-PROJECT_NAME           = TestSuiteExecutorGUI
-PROJECT_BRIEF          = TestSuiteExecutorGUI
-OUTPUT_DIRECTORY       = out/TestSuiteExecutorGUI
-STRIP_FROM_PATH        = ../../Sources/TestSuiteExecutorGUI
-INPUT                  = ../../Sources/TestSuiteExecutorGUI

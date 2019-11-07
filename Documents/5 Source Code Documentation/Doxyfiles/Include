@@ -1,6 +1,0 @@
-@INCLUDE               = Doxyfile
-PROJECT_NAME           = Include
-PROJECT_BRIEF          = Include
-OUTPUT_DIRECTORY       = out/Include
-STRIP_FROM_PATH        = ../../Sources/Include
-INPUT                  = ../../Sources/Include

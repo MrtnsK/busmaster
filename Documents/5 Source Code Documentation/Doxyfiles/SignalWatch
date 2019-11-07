@@ -1,6 +1,0 @@
-@INCLUDE               = Doxyfile
-PROJECT_NAME           = SignalWatch
-PROJECT_BRIEF          = SignalWatch
-OUTPUT_DIRECTORY       = out/SignalWatch
-STRIP_FROM_PATH        = ../../Sources/SignalWatch
-INPUT                  = ../../Sources/SignalWatch

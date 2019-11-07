@@ -1,6 +1,0 @@
-@INCLUDE               = Doxyfile
-PROJECT_NAME           = DmGraph
-PROJECT_BRIEF          = DmGraph
-OUTPUT_DIRECTORY       = out/DmGraph
-STRIP_FROM_PATH        = ../../Sources/DmGraph
-INPUT                  = ../../Sources/DmGraph

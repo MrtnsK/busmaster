@@ -1,1 +1,0 @@
-The scripts assume 'J1939.dbf' already associated to J1939 databases in application.
