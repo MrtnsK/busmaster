@@ -85,6 +85,7 @@ typedef struct struct_STATUSMSG
 enum
 {
     DRIVER_CAN_STUB = 0,
+    DRIVER_CAN_AGCO,
     DRIVER_CAN_PEAK_USB,
     DRIVER_CAN_ICS_NEOVI,
     DRIVER_CAN_ETAS_BOA,

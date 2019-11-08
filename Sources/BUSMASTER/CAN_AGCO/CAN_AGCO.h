@@ -14,38 +14,27 @@
  */
 
 /**
- * \file      ModuleID.h
- * \brief     This contains identifier of various modules.
- * \author    Ratnadip Choudhury
+ * \file      CAN_AGCO.h
+ * \brief     Exports API functions for Vector CAN Hardware interface
+ * \author    Arunkumar Karri
  * \copyright Copyright (c) 2011, Robert Bosch Engineering and Business Solutions. All rights reserved.
  *
- * This contains identifier of various modules.
+ * Exports API functions for Vector CAN Hardware interface
  */
 
 #pragma once
 
-#include <guiddef.h>
-
-typedef enum eID_COMPONENT
+/**
+ * See CAN_AGCO.cpp for the implementation of this class
+ */
+class CCAN_AGCO : public CWinApp
 {
-    COMPONENT_UNDEFINED     = 0,
-    PROJECTCONFIG_GEN,
-    DIL_CAN_STUB,
-    DIL_CAN_PEAK_USB,
-    DIL_CAN_PEAK_PP,
-    DIL_CAN_ICS_NEOVI,
-    DIL_CAN_ETAS_BOA,
-    DIL_CAN_VECTOR_XL,
-    DIL_CAN_AGCO,
-    DIL_J1939,
-    DIL_MCNET_PEAK_USB,
-    FRAMEPROC_CAN,
-    FRAMEPROC_LIN,
-    FRAMEPROC_MCNET,
-    FRAMEPROC_J1939,
-    CONVERTER_DBC_2_DBF,
-    CONVERTER_DBF_2_DBC,
-    CONVERTER_CAPL_2_C,
-    COMPONENT_DEFAULT,
-    COMPONENTS_ALL
+public:
+    CCAN_AGCO();
+
+    // Overrides
+public:
+    virtual BOOL InitInstance();
+
+    DECLARE_MESSAGE_MAP()
 };

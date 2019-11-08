@@ -14,38 +14,14 @@
  */
 
 /**
- * \file      ModuleID.h
- * \brief     This contains identifier of various modules.
- * \author    Ratnadip Choudhury
+ * \file      CAN_AGCO_stdafx.cpp
+ * \author    Arunkumar Karri
  * \copyright Copyright (c) 2011, Robert Bosch Engineering and Business Solutions. All rights reserved.
- *
- * This contains identifier of various modules.
  */
+// stdafx.cpp : source file that includes just the standard includes
+// CAN_AGCO.pch will be the pre-compiled header
+// stdafx.obj will contain the pre-compiled type information
 
-#pragma once
+#include "CAN_AGCO_stdafx.h"
 
-#include <guiddef.h>
 
-typedef enum eID_COMPONENT
-{
-    COMPONENT_UNDEFINED     = 0,
-    PROJECTCONFIG_GEN,
-    DIL_CAN_STUB,
-    DIL_CAN_PEAK_USB,
-    DIL_CAN_PEAK_PP,
-    DIL_CAN_ICS_NEOVI,
-    DIL_CAN_ETAS_BOA,
-    DIL_CAN_VECTOR_XL,
-    DIL_CAN_AGCO,
-    DIL_J1939,
-    DIL_MCNET_PEAK_USB,
-    FRAMEPROC_CAN,
-    FRAMEPROC_LIN,
-    FRAMEPROC_MCNET,
-    FRAMEPROC_J1939,
-    CONVERTER_DBC_2_DBF,
-    CONVERTER_DBF_2_DBC,
-    CONVERTER_CAPL_2_C,
-    COMPONENT_DEFAULT,
-    COMPONENTS_ALL
-};

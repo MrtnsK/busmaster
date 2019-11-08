@@ -181,6 +181,7 @@ SMSGENTRY* CTxMsgWndJ1939::m_psMsgRoot = nullptr;
 enum
 {
     DRIVER_CAN_STUB = 0,
+	DRIVER_CAN_AGCO,
     DRIVER_CAN_PEAK_USB,
     DRIVER_CAN_ICS_NEOVI,
     DRIVER_CAN_ETAS_BOA,
@@ -13472,7 +13473,11 @@ void CMainFrame::LoadControllerConfigData(SCONTROLLER_DETAILS& sController, xmlN
 INT CMainFrame::nGetControllerID(std::string strDriverName)
 {
     INT nDriverID = -1;
-    if(strDriverName == "ETAS BOA")
+    if (strDriverName == "AGCO" )
+    {
+        nDriverID = DRIVER_CAN_AGCO;
+    }
+    else if (strDriverName == "ETAS BOA")
     {
         nDriverID = DRIVER_CAN_ETAS_BOA;
     }
@@ -13480,7 +13485,7 @@ INT CMainFrame::nGetControllerID(std::string strDriverName)
     {
         nDriverID = DRIVER_CAN_VECTOR_XL;
     }
-    else if(strDriverName == "ETAS ES581" || strDriverName == "ETAS ES581.3")
+    else if (strDriverName == "ETAS ES581" || strDriverName == "ETAS ES581.3")
     {
         nDriverID = DRIVER_CAN_ETAS_ES581;
     }

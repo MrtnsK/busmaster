@@ -32,6 +32,7 @@
 #include "..\..\CAN_STUB/CAN_STUB_Extern.h"
 #include "..\..\CAN_ETAS_BOA/CAN_ETAS_BOA_Extern.h"
 #include "..\..\CAN_Vector_XL/CAN_Vector_XL_Extern.h"
+#include "..\..\CAN_AGCO/CAN_AGCO_Extern.h"
 #include "..\..\CAN_Kvaser_CAN/CAN_Kvaser_CAN_Extern.h"
 #include "..\..\CAN_iVIEW/CAN_i-VIEW_Extern.h"
 #include "..\..\CAN_NSI/CAN_NSI_Extern.h"*/
@@ -53,6 +54,7 @@ public:
 enum
 {
     DRIVER_CAN_STUB = 0,
+    DRIVER_CAN_AGCO,
     DRIVER_CAN_PEAK_USB,
     DRIVER_CAN_ICS_NEOVI,
     DRIVER_CAN_ETAS_BOA,
@@ -76,6 +78,7 @@ static ENTRY_DIL sg_ListDIL[] =
     /* simulation should be the first entry... */
     {DRIVER_CAN_STUB,       "&Simulation"       },
     /* ...all other drivers should be in alphabetical order */
+    {DRIVER_CAN_AGCO, 		"&AGCO" 	        },
     {DRIVER_CAN_ETAS_BOA,   "ETAS &BOA"         },
     {DRIVER_CAN_ETAS_ES581, "ETAS &ES581.3"     },
     {DRIVER_CAN_ETAS_ES5814, "ETAS ES581.&4"    },
@@ -306,6 +309,10 @@ HRESULT CDIL_CAN::DILC_SelectDriver(DWORD dwDriverID, HWND hWndOwner)
 
         switch(dwDriverID)
         {
+			case DRIVER_CAN_AGCO:
+                m_hDll = LoadLibrary("CAN_AGCO.dll");
+                break;
+
             case DRIVER_CAN_PEAK_USB:
                 m_hDll = LoadLibrary("CAN_PEAK_USB.dll");
                 break;

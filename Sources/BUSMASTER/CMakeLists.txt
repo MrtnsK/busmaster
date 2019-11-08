@@ -113,6 +113,7 @@ add_definitions(-D_CRT_SECURE_NO_WARNINGS -wd4996) # warning C4996: '...': This 
 #
 add_subdirectory(Application)
 add_subdirectory(BusEmulation)
+add_subdirectory(CAN_AGCO)
 add_subdirectory(CAN_ETAS_BOA)
 add_subdirectory(CAN_ICS_neoVI)
 add_subdirectory(CAN_ISOLAR_EVE_VCAN)
