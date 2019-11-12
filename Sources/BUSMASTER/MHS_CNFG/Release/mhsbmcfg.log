@@ -1,9 +1,0 @@
-﻿  about.C
-  can_setup.C
-c1 : fatal error C1083: Impossible d'ouvrir le fichier source : 'src\can_setup.C' : No such file or directory
-  gui_util.c
-c1 : fatal error C1083: Impossible d'ouvrir le fichier source : 'src\gui_util.c' : No such file or directory
-  mhsbmcfg.c
-c1 : fatal error C1083: Impossible d'ouvrir le fichier source : 'src\mhsbmcfg.c' : No such file or directory
-  util.c
-  Génération de code en cours...

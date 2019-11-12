@@ -1,3 +1,0 @@
-﻿  dllmain.cpp
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\Debug\AdvancedUIPlugin.dll) does not match the Linker's OutputFile property value (C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\bin\Debug\AdvancedUIPlugIn.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-  AdvancedUIPlugin.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\BUSMASTER\Debug\AdvancedUIPlugin.dll

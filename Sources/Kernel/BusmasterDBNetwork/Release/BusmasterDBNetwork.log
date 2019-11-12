@@ -1,6 +1,0 @@
-﻿  AccessDBManager.cpp
-  BusMasterNetWork.cpp
-BusMasterNetWork.cpp(502): warning C4018: '<' : signed/unsigned mismatch
-BusMasterNetWork.cpp(529): warning C4018: '>' : signed/unsigned mismatch
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\Kernel\BusmasterDBNetwork\Release\BusmasterDBNetwork.lib) does not match the Library's OutputFile property value (C:\Users\kmartin\Desktop\origincpy\Sources\Kernel\Bin\Release\BusmasterDBNetwork.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
-  BusmasterDBNetwork.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\Kernel\BusmasterDBNetwork\Release\BusmasterDBNetwork.lib

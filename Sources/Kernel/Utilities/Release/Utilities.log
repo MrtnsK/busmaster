@@ -1,5 +1,0 @@
-﻿  MsgBufVSE.cpp
-  MsgBufVVSE.cpp
-  Utility_Thread.cpp
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\kmartin\Desktop\origincpy\Sources\Kernel\Utilities\Release\Utilities.lib) does not match the Library's OutputFile property value (C:\Users\kmartin\Desktop\origincpy\Sources\Kernel\Bin\Release\Utilities.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
-  Utilities.vcxproj -> C:\Users\kmartin\Desktop\origincpy\Sources\Kernel\Utilities\Release\Utilities.lib
