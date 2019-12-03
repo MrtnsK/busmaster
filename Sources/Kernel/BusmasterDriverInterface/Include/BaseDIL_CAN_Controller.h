@@ -29,6 +29,9 @@
 class CBaseDIL_CAN_Controller
 {
 public:
+	virtual HRESULT			GetHWinfo(HANDLE handle, unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res) = 0;
+	virtual HRESULT			myCanOpen(char *name, HANDLE *handle) = 0;
+	virtual HRESULT			myCanClose(HANDLE handle) = 0;
     /**
      * Performs intial operations.
      * Initializes filter, queue, controller config with default values.

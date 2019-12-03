@@ -3031,6 +3031,82 @@ void CMainFrame::OnLog_LIN_Enable()
 	vStartStopLogging_LIN(bLogON == TRUE);
 }
 
+///////////// Custom function to know the serial number of an canusb agco hw
+
+#include <stdlib.h>
+#include "C:\Users\kmartin\Desktop\busmaster\Sources\Kernel\BusmasterDriverInterface\DIL_CAN.h"
+#include "C:\Users\kmartin\Desktop\dll\MF_IOCanBox\CanBox2.h"
+#include "C:\Users\kmartin\Desktop\dll\MF_IOCanBox\CanBox2.cpp"
+#include "C:\Users\kmartin\Desktop\dll\MF_IOCanBox\vxlapi.h"
+
+char *convertSN(unsigned long sn)
+{
+	char	str[20];
+	char	*serial;
+	int		i;
+
+	i = 0;
+	if (!(serial = (char*)malloc(sizeof(char) * 5)))
+		return (NULL);
+	itoa(sn, str, 16);
+	while (i < 4)
+		serial[i] = str[i++];
+	serial[i] = '\0';
+	return(serial);
+}
+
+char	*decriptSN(unsigned long sn1, unsigned long sn2)
+{
+	int		tmp;
+	char	*tmp1;
+	char	*tmp2;
+	char	*serialnumber;
+	char	*trash;
+	int		i;
+	int		len;
+
+	i = 0;
+	tmp1 = convertSN(sn1);
+	tmp2 = convertSN(sn2);
+	tmp = strtol(tmp2, &trash, 16);
+	free(tmp2);
+	if (!(tmp2 = (char*)malloc(sizeof(char) * 20)))
+		return (NULL);
+	itoa(tmp, tmp2, 10);
+	len = strlen(tmp1) + strlen(tmp2) + 1;
+	if (!(serialnumber = (char*)malloc(sizeof(char) * len)))
+		return (NULL);
+	while (i < len)
+		serialnumber[i++] = '\0';
+	strcat(serialnumber, tmp1);
+	strcat(serialnumber, tmp2);
+	free(tmp1);
+	free(tmp2);
+	return (serialnumber);
+}
+
+
+void CDIL_CAN::GetSerialNumber()
+{
+	unsigned long	pulSNHigh = 0;
+	unsigned long	pulSNLow = 0;
+	char		*serialnumber;
+	int			id;
+	HANDLE		handle;
+
+	if (!(m_pBaseDILCAN_Controller->myCanOpen("c_AGCO", &handle))) {
+
+		theApp.bWriteIntoTraceWnd(_("Vector Hardware"));
+	}
+	else {
+		m_pBaseDILCAN_Controller->GetHWinfo(handle, &pulSNHigh, &pulSNLow, &id);
+		serialnumber = decriptSN(pulSNHigh, pulSNLow);
+		id == 0 ? theApp.bWriteIntoTraceWnd(_(serialnumber)) : theApp.bWriteIntoTraceWnd(_("ERROR = %d", id));
+		m_pBaseDILCAN_Controller->myCanClose(handle);
+	}
+}
+
+/////////////
 
 /******************************************************************************/
 /*  Functionality    :  This function is called by framework when user wants  */
