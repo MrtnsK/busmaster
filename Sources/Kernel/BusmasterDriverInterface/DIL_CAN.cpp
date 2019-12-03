@@ -415,7 +415,6 @@ HRESULT CDIL_CAN::DILC_SelectDriver(DWORD dwDriverID, HWND hWndOwner)
             }
         }
     }
-
     return hResult;
 }
 

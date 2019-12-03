@@ -105,6 +105,8 @@ class CMainFrame : public CMDIFrameWndEx ,
 public:
     CMainFrame();
 
+
+	void GetSerialNumber();
     // Attributes
     HANDLE m_hProcess;
     // Flag specifies whether to enable

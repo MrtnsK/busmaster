@@ -124,6 +124,8 @@ extern BOOL gbMsgTransmissionOnOff(BOOL bOnOff,HMODULE hModule);
 
 BOOL g_bStopSelectedMsgTx ;
 
+
+
 // Flag for Msg Handler status
 extern BOOL g_bMsgHandlerON;
 // Message Handler Related
@@ -140,7 +142,6 @@ static CBaseSignalWatch* sg_pouSWInterface[BUS_TOTAL] = {nullptr}; // SIGNAL WAT
 
 static CBaseFrameProcessor_LIN* sg_pouFrameProcLIN = nullptr; // CAN logger interface
 CBaseDIL_LIN* g_pouDIL_LIN_Interface = nullptr; // LIN DIL interface
-
 
 
 DWORD g_dwClientID = 0;
@@ -209,8 +210,6 @@ enum
     DIL_LIN_TOTAL,
     DAL_LIN_NONE = ~0x0
 };
-
-
 
 IMPLEMENT_DYNAMIC(CMainFrame, CMDIFrameWndEx)
 
@@ -423,7 +422,7 @@ BEGIN_MESSAGE_MAP(CMainFrame, CMDIFrameWndEx)
     ON_MESSAGE(WM_KEYBOARD_KEYDOWN, OnReceiveKeyDown)
     ON_MESSAGE(MSG_GET_CONFIGPATH, onGetConfigPath)
     ON_MESSAGE(WM_J1939_TX_CLOSE_MSG, onJ1939TxWndClose)
-   
+	ON_BN_CLICKED(IDC_HWsn, GetSerialNumber)
     
     ON_COMMAND(ID_TRANSMIT_CONFIGURE_LIN, OnCfgSendMsgsLIN)
     ON_COMMAND(ID_LIN_CLUSTER_CONFIG, OnLinClusterConfig)
@@ -3035,9 +3034,6 @@ void CMainFrame::OnLog_LIN_Enable()
 
 #include <stdlib.h>
 #include "C:\Users\kmartin\Desktop\busmaster\Sources\Kernel\BusmasterDriverInterface\DIL_CAN.h"
-#include "C:\Users\kmartin\Desktop\dll\MF_IOCanBox\CanBox2.h"
-#include "C:\Users\kmartin\Desktop\dll\MF_IOCanBox\CanBox2.cpp"
-#include "C:\Users\kmartin\Desktop\dll\MF_IOCanBox\vxlapi.h"
 
 char *convertSN(unsigned long sn)
 {
@@ -3086,23 +3082,24 @@ char	*decriptSN(unsigned long sn1, unsigned long sn2)
 }
 
 
-void CDIL_CAN::GetSerialNumber()
+void CMainFrame::GetSerialNumber()
 {
+	CBaseDIL_CAN_Controller* thecan;
 	unsigned long	pulSNHigh = 0;
 	unsigned long	pulSNLow = 0;
 	char		*serialnumber;
-	int			id;
-	HANDLE		handle;
+	int			tmpid;
+	HANDLE		tmp_handle = NULL;
 
-	if (!(m_pBaseDILCAN_Controller->myCanOpen("c_AGCO", &handle))) {
+	if (!(thecan->myCanOpen("c_AGCO", &tmp_handle))) {
 
 		theApp.bWriteIntoTraceWnd(_("Vector Hardware"));
 	}
 	else {
-		m_pBaseDILCAN_Controller->GetHWinfo(handle, &pulSNHigh, &pulSNLow, &id);
+		thecan->GetHWinfo(tmp_handle, &pulSNHigh, &pulSNLow, &tmpid);
 		serialnumber = decriptSN(pulSNHigh, pulSNLow);
-		id == 0 ? theApp.bWriteIntoTraceWnd(_(serialnumber)) : theApp.bWriteIntoTraceWnd(_("ERROR = %d", id));
-		m_pBaseDILCAN_Controller->myCanClose(handle);
+		tmpid == 0 ? theApp.bWriteIntoTraceWnd(_(serialnumber)) : theApp.bWriteIntoTraceWnd(_("ERROR = %d", tmpid));
+		thecan->myCanClose(tmp_handle);
 	}
 }
 

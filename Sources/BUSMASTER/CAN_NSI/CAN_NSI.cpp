@@ -419,11 +419,31 @@ public:
     HRESULT CAN_LoadDriverLibrary(void);
     HRESULT CAN_UnloadDriverLibrary(void);
     HRESULT CAN_SetHardwareChannel(PSCONTROLLER_DETAILS,DWORD dwDriverId,bool bIsHardwareListed, unsigned int unChannelCount);
+	HRESULT			GetHWinfo(HANDLE handle, unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res);
+	HRESULT			myCanOpen(char *name, HANDLE *handle);
+	HRESULT			myCanClose(HANDLE handle);
 };
 
 CDIL_CAN_NSI* sg_pouDIL_CAN_NSI = nullptr;
 HANDLE g_hDataEvent[defNO_OF_CHANNELS]  = {0};
 
+HRESULT CDIL_CAN_NSI::myCanOpen(char *name, HANDLE *handle)
+{
+	handle = NULL;
+	return S_OK;
+}
+
+HRESULT	CDIL_CAN_NSI::myCanClose(HANDLE handle)
+{
+	return S_OK;
+}
+
+
+HRESULT	CDIL_CAN_NSI::GetHWinfo(HANDLE handle, unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res)
+{
+	(*res) = 0;
+	return S_OK;
+}
 
 ///------------------------------------------------------------------------------------------------
 /// \brief         Returns the CDIL_CAN_NSI object

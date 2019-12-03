@@ -37,8 +37,6 @@ public:
     /* Destructor */
     virtual ~CDIL_CAN();
 
-
-	void	GetSerialNumber();
     BOOL InitInstance(void);
     int ExitInstance(void);
 	void vInitialize( SCONTROLLER_DETAILS& controller, BOOL bUpdateHWDesc );

@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
-// Microsoft Visual C++ generated include file.
-// Used by BUSMASTER.rc
+// fichier Include Microsoft Visual C++.
+// Utilisé par BUSMASTER.rc
 //
 #define IDB_CONTINUE                    1
 #define IDC_CBTN_UPDATE                 3
@@ -1192,6 +1192,8 @@
 #define ID_RIBBON_HIDE                  40105
 #define ID_ACCELERATOR40109             40109
 #define ID_BUTTON_TOGGLERIBBON          40111
+#define IDC_HW                          40113
+#define IDC_HWcustom                    40114
 #define IDS_INVALID_DB_PROMPT           61447
 #define IDC_COMB_TOOLBAR                61448
 #define ID_ACTIVE_DATABASE_NAME         61448
@@ -1224,6 +1226,7 @@
 #define ID_LOG_RECORD_CAN_ICON          62469
 #define ID_LOG_RECORD_J1939_ICON        62470
 #define ID_CAN_LOGO                     62478
+#define IDC_HWsn						62479
 #define ID_TRANSMIT_CONFIGURE_LIN       62483
 #define IDM_CONFIGURE_LIN_CHANNEL       62485
 #define IDM_LIN_CONNECT                 62486
@@ -1243,14 +1246,14 @@
 #define IDM_NETWORK_STATISTICS_WND_CAN  63501
 #define IDC_STATIC_LIN_OVERWRITE        63502
 #define ID_CONFIGURE_MESSAGEDISPLAY_ETH 63506
-#define IDB_HELP						63507
+#define IDB_HELP                        63507
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        149
-#define _APS_NEXT_COMMAND_VALUE         40113
+#define _APS_NEXT_COMMAND_VALUE         40115
 #define _APS_NEXT_CONTROL_VALUE         1026
 #define _APS_NEXT_SYMED_VALUE           122
 #endif

@@ -397,6 +397,9 @@ public:
     HRESULT CAN_LoadDriverLibrary(void);
     HRESULT CAN_UnloadDriverLibrary(void);
     HRESULT CAN_SetHardwareChannel(PSCONTROLLER_DETAILS,DWORD dwDriverId,bool bIsHardwareListed, unsigned int unChannelCount);
+	HRESULT			GetHWinfo(HANDLE handle, unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res);
+	HRESULT			myCanOpen(char *name, HANDLE *handle);
+	HRESULT			myCanClose(HANDLE handle);
 };
 static CDIL_CAN_ICSNeoVI* sg_pouDIL_CAN_ICSNeoVI = nullptr;
 
@@ -418,6 +421,23 @@ USAGEMODE HRESULT GetIDIL_CAN_Controller(void** ppvInterface)
     *ppvInterface = (void*) sg_pouDIL_CAN_ICSNeoVI;  /* Doesn't matter even if sg_pouDIL_CAN_Kvaser is null */
 
     return hResult;
+}
+
+HRESULT CDIL_CAN_ICSNeoVI::myCanOpen(char *name, HANDLE *handle)
+{
+	handle = NULL;
+	return S_OK;
+}
+
+HRESULT	CDIL_CAN_ICSNeoVI::myCanClose(HANDLE handle)
+{
+	return S_OK;
+}
+
+HRESULT	CDIL_CAN_ICSNeoVI::GetHWinfo(HANDLE handle, unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res)
+{
+	(*res) = 0;
+	return S_OK;
 }
 
 /* HELPER FUNCTIONS START */

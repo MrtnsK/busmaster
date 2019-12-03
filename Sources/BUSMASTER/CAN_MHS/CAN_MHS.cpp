@@ -212,6 +212,9 @@ public:
     HRESULT CAN_LoadDriverLibrary(void);
     HRESULT CAN_UnloadDriverLibrary(void);
     HRESULT CAN_SetHardwareChannel(PSCONTROLLER_DETAILS,DWORD dwDriverId,bool bIsHardwareListed, unsigned int unChannelCount);
+	HRESULT			GetHWinfo(HANDLE handle, unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res);
+	HRESULT			myCanOpen(char *name, HANDLE *handle);
+	HRESULT			myCanClose(HANDLE handle);
 };
 
 CDIL_CAN_MHS* g_pouDIL_CAN_MHS = nullptr;
@@ -235,6 +238,24 @@ static void vMarkEntryIntoMap(const SACK_MAP& RefObj);
 static BOOL bRemoveMapEntry(const SACK_MAP& RefObj, UINT& ClientID);
 static int str_has_char(char* s);
 
+
+HRESULT CDIL_CAN_MHS::myCanOpen(char *name, HANDLE *handle)
+{
+	handle = NULL;
+	return S_OK;
+}
+
+HRESULT	CDIL_CAN_MHS::myCanClose(HANDLE handle)
+{
+	return S_OK;
+}
+
+
+HRESULT	CDIL_CAN_MHS::GetHWinfo(HANDLE handle, unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res)
+{
+	(*res) = 0;
+	return S_OK;
+}
 
 /**
  * \return S_OK for success, S_FALSE for failure

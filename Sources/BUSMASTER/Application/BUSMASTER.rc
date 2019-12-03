@@ -16,12 +16,11 @@
 
 
 
-
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// English (United States) resources
+// Anglais (États-Unis) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
@@ -33,6 +32,7 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 //
 
 1                       TYPELIB                 "BUSMASTER.tlb"
+
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -928,31 +928,57 @@ END
 //
 
 IDR_BMP_MSGSGDB         BITMAP                  "res\\bitmap1.bmp"
+
 IDR_BMP_SPLASH_SCREEN   BITMAP                  "Res\\Splsh16.bmp"
+
 IDB_BMP_COPYRIGHT       BITMAP                  "res\\copyright.bmp"
+
 IDR_BMP_NET             BITMAP                  "res\\bmp_net.bmp"
+
 IDB_BMP_GRAPH_ELEMENTS  BITMAP                  "res\\GraphElements.bmp"
+
 IDR_BMP_CHECKBOX        BITMAP                  "res\\bmp_chec.bmp"
+
 IDB_BMP_FILTER          BITMAP                  "res\\Filter.bmp"
+
 IDB_HDRDOWN             BITMAP                  "Res\\hdrdown.bmp"
+
 IDB_HDRUP               BITMAP                  "Res\\hdrup.bmp"
+
 IDB_BMP_PROPERTIES      BITMAP                  "res\\Properties.bmp"
+
 IDR_BMP_MSG_SIG_WATCH   BITMAP                  "res\\Signalwatch.bmp"
+
 IDB_J1939TXMSG          BITMAP                  "res\\J1939TxWnd.bmp"
+
 IDR_TLB_IMPORT_LOG      BITMAP                  "res\\MsgWndImportLog.bmp"
+
 IDB_RIBBON_J1939        BITMAP                  "res\\j1939_Icon1.bmpx"
+
 IDB_BITMAP15            BITMAP                  "Res\\Busmaster.bmpx"
+
 IDB_LIN_CATEGORY        BITMAP                  "Res\\LIN.bmpx"
+
 IDB_BITMAP14            BITMAP                  "Res\\Filemenu1.bmpx"
+
 IDB_CAN_CATEGORY        BITMAP                  "Res\\CAN_ICON.bmpx"
+
 IDB_BUSMASTER_SMALL     BITMAP                  "Res\\BumasterSmallIcons.bmpx"
+
 IDB_FILE_SMALL          BITMAP                  "Res\\filesmall.bmp"
+
 IDB_TEMP_BITMAP_SMALL   BITMAP                  "Res\\Temp_small.bmpx"
+
 IDB_TEMP_BITMAP         BITMAP                  "Res\\Temp.bmpx"
+
 IDB_TOOLS_CATEGORY      BITMAP                  "Res\\TOOLS_ICON.bmpx"
+
 IDB_VIEW_CATEGORY       BITMAP                  "Res\\VIEW_ICON.bmpx"
+
 IDB_PLUGIN_IMAGE_MISS   BITMAP                  "Res\\PluginImageMissing.bmpx"
+
 IDB_HELP                BITMAP                  "Res\\HELP_ICON.bmpx"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -1328,24 +1354,39 @@ END
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
 IDR_MAINFRAME           ICON                    "res\\BUSMASTER.ico"
+
 IDR_PGM_EDTYPE          ICON                    "res\\BUSMASTERDoc.ico"
+
 IDI_ICON_MSGWND         ICON                    "Res\\MsgWnd.ico"
+
 IDI_ICO_WRITE           ICON                    "Res\\write.ico"
+
 IDR_ICON_GRAPH          ICON                    "res\\GraphWindow.ico"
+
 IDI_ICO_SEND_MSG        ICON                    "res\\ico_send.ico"
+
 IDI_ICO_DB_EDITOR       ICON                    "res\\DB Editor.ico"
+
 IDI_ICON_PLUS           ICON                    "res\\Plus.ico"
+
 IDI_ICON_MINUS          ICON                    "res\\Minus.ico"
+
 IDI_ICON_BLANK          ICON                    "res\\Blank.ico"
-IDI_ICON_HELP           ICON                    "Res\\Help.ico"
-IDI_ICON_ABOUT          ICON                    "Res\\About.ico"
+
 IDI_ICON_LOG_OFF        ICON                    "res\\LoggingOFF.ico"
+
 IDI_ICON_LOG_ON         ICON                    "res\\LoggingON.ico"
+
 IDI_ICON_LOG_ONLIGHT    ICON                    "res\\LoggingONLIGHT.ico"
+
 IDI_ICON_NETWORKSTAT    ICON                    "res\\Network_Statistics.ico"
+
 IDI_ICON_SMSG           ICON                    "res\\DB Editor.ico"
+
 IDI_ICON_HIDE_RIBBON    ICON                    "Res\\HideRibbon.ico"
+
 IDI_ICON_SHOW_RIBBON    ICON                    "Res\\ShowRibbon.ico"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -1451,7 +1492,8 @@ END
 // RT_MANIFEST
 //
 
-1                       RT_MANIFEST             "..\BIN\Release\BUSMASTER.exe.manifest"
+1                       RT_MANIFEST             "..\\BIN\\Release\\BUSMASTER.exe.manifest"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -1981,10 +2023,8 @@ BEGIN
     IDD_SETTINGS_UDS        "Configure settings for Diagnostic Message Transmission and Reception\nSettings"
 END
 
-#endif    // English (United States) resources
+#endif    // Anglais (États-Unis) resources
 /////////////////////////////////////////////////////////////////////////////
-
-
 
 #ifndef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
