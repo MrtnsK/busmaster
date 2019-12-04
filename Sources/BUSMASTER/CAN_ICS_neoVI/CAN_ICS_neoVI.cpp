@@ -425,7 +425,6 @@ USAGEMODE HRESULT GetIDIL_CAN_Controller(void** ppvInterface)
 
 HRESULT CDIL_CAN_ICSNeoVI::myCanOpen(char *name, HANDLE *handle)
 {
-	handle = NULL;
 	return S_OK;
 }
 

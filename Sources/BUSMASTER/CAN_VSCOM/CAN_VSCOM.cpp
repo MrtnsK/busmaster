@@ -207,7 +207,6 @@ static BOOL bRemoveMapEntry(const SACK_MAP& RefObj, UINT& ClientID);
 
 HRESULT CDIL_CAN_VSCOM::myCanOpen(char *name, HANDLE *handle)
 {
-	handle = NULL;
 	return S_OK;
 }
 

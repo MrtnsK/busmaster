@@ -236,7 +236,6 @@ static CDIL_CAN_STUB* sg_pouDIL_CAN_STUB = nullptr;
 
 HRESULT CDIL_CAN_STUB::myCanOpen(char *name, HANDLE *handle)
 {
-	handle = NULL;
 	return S_OK;
 }
 

@@ -40,7 +40,7 @@ public:
     BOOL InitInstance(void);
     int ExitInstance(void);
 	void vInitialize( SCONTROLLER_DETAILS& controller, BOOL bUpdateHWDesc );
-
+	char *writeSerialNumber();
     /* Variable to maintain currently selected Driver ID */
     DWORD m_dwDriverID;
     /* Variable to store previously selected Driver ID */
@@ -104,7 +104,7 @@ public:
     /**
      * Call for all initialisation operations.
      */
-    HRESULT DILC_PerformInitOperations(void);
+    char  *DILC_PerformInitOperations(void);
 
     /**
      * Call for all uninitialisation operations

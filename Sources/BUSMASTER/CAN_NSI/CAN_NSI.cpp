@@ -429,7 +429,6 @@ HANDLE g_hDataEvent[defNO_OF_CHANNELS]  = {0};
 
 HRESULT CDIL_CAN_NSI::myCanOpen(char *name, HANDLE *handle)
 {
-	handle = NULL;
 	return S_OK;
 }
 

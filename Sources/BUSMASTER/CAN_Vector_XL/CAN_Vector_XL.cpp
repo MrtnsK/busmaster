@@ -283,9 +283,8 @@ public:
 
 CDIL_CAN_VectorXL* g_pouDIL_CAN_VectorXL = nullptr;
 
-HRESULT CDIL_CAN_VectorXL::myCanOpen(char *name, HANDLE *handle)
+HRESULT  CDIL_CAN_VectorXL::myCanOpen(char *name, HANDLE *handle)
 {
-	handle = NULL;
 	return S_OK;
 }
 

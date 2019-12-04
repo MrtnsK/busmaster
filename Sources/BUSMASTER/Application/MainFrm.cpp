@@ -3030,79 +3030,15 @@ void CMainFrame::OnLog_LIN_Enable()
 	vStartStopLogging_LIN(bLogON == TRUE);
 }
 
-///////////// Custom function to know the serial number of an canusb agco hw
-
-#include <stdlib.h>
-#include "C:\Users\kmartin\Desktop\busmaster\Sources\Kernel\BusmasterDriverInterface\DIL_CAN.h"
-
-char *convertSN(unsigned long sn)
-{
-	char	str[20];
-	char	*serial;
-	int		i;
-
-	i = 0;
-	if (!(serial = (char*)malloc(sizeof(char) * 5)))
-		return (NULL);
-	itoa(sn, str, 16);
-	while (i < 4)
-		serial[i] = str[i++];
-	serial[i] = '\0';
-	return(serial);
-}
-
-char	*decriptSN(unsigned long sn1, unsigned long sn2)
-{
-	int		tmp;
-	char	*tmp1;
-	char	*tmp2;
-	char	*serialnumber;
-	char	*trash;
-	int		i;
-	int		len;
-
-	i = 0;
-	tmp1 = convertSN(sn1);
-	tmp2 = convertSN(sn2);
-	tmp = strtol(tmp2, &trash, 16);
-	free(tmp2);
-	if (!(tmp2 = (char*)malloc(sizeof(char) * 20)))
-		return (NULL);
-	itoa(tmp, tmp2, 10);
-	len = strlen(tmp1) + strlen(tmp2) + 1;
-	if (!(serialnumber = (char*)malloc(sizeof(char) * len)))
-		return (NULL);
-	while (i < len)
-		serialnumber[i++] = '\0';
-	strcat(serialnumber, tmp1);
-	strcat(serialnumber, tmp2);
-	free(tmp1);
-	free(tmp2);
-	return (serialnumber);
-}
-
-
+///////////// Custom function to print the serial number of an canusb agco hw
+char *g_snhwcustom;
 void CMainFrame::GetSerialNumber()
 {
-	CBaseDIL_CAN_Controller* thecan;
-	unsigned long	pulSNHigh = 0;
-	unsigned long	pulSNLow = 0;
-	char		*serialnumber;
-	int			tmpid;
-	HANDLE		tmp_handle = NULL;
-
-	if (!(thecan->myCanOpen("c_AGCO", &tmp_handle))) {
-
-		theApp.bWriteIntoTraceWnd(_("Vector Hardware"));
-	}
-	else {
-		thecan->GetHWinfo(tmp_handle, &pulSNHigh, &pulSNLow, &tmpid);
-		serialnumber = decriptSN(pulSNHigh, pulSNLow);
-		tmpid == 0 ? theApp.bWriteIntoTraceWnd(_(serialnumber)) : theApp.bWriteIntoTraceWnd(_("ERROR = %d", tmpid));
-		thecan->myCanClose(tmp_handle);
-	}
+	if (g_snhwcustom)
+		MessageBox(g_snhwcustom, "Hardware Serial Number", 0);
+	else
+		MessageBox("There is no serial number found", "Hardware Serial Number", 0);
 }
-
 /////////////
 
 /******************************************************************************/
@@ -9521,7 +9457,7 @@ HRESULT CMainFrame::IntializeDIL(UINT unDefaultChannelCnt, bool bLoadedFromXml)
     {
         if ((hResult = g_pouDIL_CAN_Interface->DILC_SelectDriver(m_dwDriverId, m_hWnd)) == S_OK)
         {
-            g_pouDIL_CAN_Interface->DILC_PerformInitOperations();
+			g_snhwcustom = g_pouDIL_CAN_Interface->DILC_PerformInitOperations();
             INT nCount = unDefaultChannelCnt;
             if(S_FALSE == g_pouDIL_CAN_Interface->DILC_SetHardwareChannel(m_asControllerDetails,m_dwDriverId, false))
             {
@@ -9658,7 +9594,7 @@ HRESULT CMainFrame::IntializeDILL(UINT unDefaultChannelCnt)
     }
     if (hResult == S_OK)
     {
-        if ((hResult = g_pouDIL_LIN_Interface->DILL_SelectDriver(m_shLINDriverId, m_hWnd)) == S_OK)
+         if ((hResult = g_pouDIL_LIN_Interface->DILL_SelectDriver(m_shLINDriverId, m_hWnd)) == S_OK)
         {
             g_pouDIL_LIN_Interface->DILL_PerformInitOperations();
             INT nCount = unDefaultChannelCnt;

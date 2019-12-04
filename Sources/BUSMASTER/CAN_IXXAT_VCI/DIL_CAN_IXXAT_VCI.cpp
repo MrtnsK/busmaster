@@ -100,7 +100,6 @@ CDIL_CAN_IXXAT_VCI::~CDIL_CAN_IXXAT_VCI()
 
 HRESULT CDIL_CAN_IXXAT_VCI::myCanOpen(char *name, HANDLE *handle)
 {
-	handle = NULL;
 	return S_OK;
 }
 

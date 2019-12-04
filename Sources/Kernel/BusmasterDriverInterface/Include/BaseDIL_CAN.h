@@ -89,7 +89,7 @@ public:
     /**
      * Call for all initialisation operations.
      */
-    virtual HRESULT DILC_PerformInitOperations(void) = 0;
+    virtual char *DILC_PerformInitOperations(void) = 0;
 
     /**
      * Call for all uninitialisation operations

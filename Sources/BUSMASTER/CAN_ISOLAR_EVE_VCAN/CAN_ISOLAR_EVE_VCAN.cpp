@@ -97,7 +97,6 @@ public:
 
 HRESULT CDIL_ISOLAR_EVE_VCAN::myCanOpen(char *name, HANDLE *handle)
 {
-	handle = NULL;
 	return S_OK;
 }
 

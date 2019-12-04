@@ -270,6 +270,80 @@ HMODULE CDIL_CAN::vLoadEtasBoaLibrary()
     return nullptr;
 }
 
+
+#include <stdlib.h>
+
+char *convertSN(unsigned long sn)
+{
+	char	str[20];
+	char	*serial;
+	int		i;
+
+	i = 0;
+	if (!(serial = (char*)malloc(sizeof(char) * 5)))
+		return (NULL);
+	itoa(sn, str, 16);
+	while (i < 4)
+		serial[i] = str[i++];
+	serial[i] = '\0';
+	return(serial);
+}
+
+char	*decriptSN(unsigned long sn1, unsigned long sn2)
+{
+	int		tmp;
+	char	*tmp1;
+	char	*tmp2;
+	char	*serialnumber;
+	char	*trash;
+	int		i;
+	int		len;
+
+	i = 0;
+	tmp1 = convertSN(sn1);
+	tmp2 = convertSN(sn2);
+	tmp = strtol(tmp2, &trash, 16);
+	free(tmp2);
+	if (!(tmp2 = (char*)malloc(sizeof(char) * 20)))
+		return (NULL);
+	itoa(tmp, tmp2, 10);
+	len = strlen(tmp1) + strlen(tmp2) + 1;
+	if (!(serialnumber = (char*)malloc(sizeof(char) * len)))
+		return (NULL);
+	while (i < len)
+		serialnumber[i++] = '\0';
+	strcat(serialnumber, tmp1);
+	strcat(serialnumber, tmp2);
+	free(tmp1);
+	free(tmp2);
+	return (serialnumber);
+}
+
+
+#include "C:\Users\kmartin\Desktop\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\BaseDIL_CAN_Controller.h"
+
+char *CDIL_CAN::writeSerialNumber()
+{
+	HANDLE			handle;
+	unsigned long	pulSNHigh = 0;
+	unsigned long	pulSNLow = 0;
+	char		*serialnumber;
+	int			tmpid;
+
+	if ((m_pBaseDILCAN_Controller->myCanOpen("c_AGCO", &handle)) == S_FALSE) {
+		return ("Not an AGCO Hardware");
+	}
+	else {
+		m_pBaseDILCAN_Controller->GetHWinfo(handle, &pulSNHigh, &pulSNLow, &tmpid);
+		serialnumber = decriptSN(pulSNHigh, pulSNLow);
+		m_pBaseDILCAN_Controller->myCanClose(handle);
+		if (serialnumber[0] == '0')
+			return ("Not an AGCO Hardware");
+		return (serialnumber);
+	}
+	return NULL;
+}
+
 /**
  * \brief     Select driver from DIL list
  * \req       RSI_14_002 - DILC_SelectDriver
@@ -461,9 +535,13 @@ DWORD CDIL_CAN::DILC_GetSelectedDriver(void)
  *
  * Call for all initialisation operations
  */
-HRESULT CDIL_CAN::DILC_PerformInitOperations(void)
+char *CDIL_CAN::DILC_PerformInitOperations(void)
 {
-    return m_pBaseDILCAN_Controller->CAN_PerformInitOperations();
+	char *snhwcustom;
+	HRESULT res;
+	res = m_pBaseDILCAN_Controller->CAN_PerformInitOperations();
+	snhwcustom = writeSerialNumber();
+	return snhwcustom;
 }
 
 /**

@@ -241,7 +241,6 @@ static int str_has_char(char* s);
 
 HRESULT CDIL_CAN_MHS::myCanOpen(char *name, HANDLE *handle)
 {
-	handle = NULL;
 	return S_OK;
 }
 

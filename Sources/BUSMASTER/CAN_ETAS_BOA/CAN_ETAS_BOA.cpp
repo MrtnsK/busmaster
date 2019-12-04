@@ -406,7 +406,6 @@ static void (OCI_CALLBACK ProcessEvents)(void* userData, struct OCI_CANMessage* 
 
 HRESULT CDIL_CAN_ETAS_BOA::myCanOpen(char *name, HANDLE *handle)
 {
-	handle = NULL;
 	return S_OK;
 }
 
