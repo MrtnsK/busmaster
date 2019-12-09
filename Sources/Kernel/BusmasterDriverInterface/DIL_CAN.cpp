@@ -324,23 +324,16 @@ char	*decriptSN(unsigned long sn1, unsigned long sn2)
 
 char *CDIL_CAN::writeSerialNumber()
 {
-	HANDLE			handle;
 	unsigned long	pulSNHigh = 0;
 	unsigned long	pulSNLow = 0;
 	char		*serialnumber;
 	int			tmpid;
 
-	if ((m_pBaseDILCAN_Controller->myCanOpen("c_AGCO", &handle)) == S_FALSE) {
+	m_pBaseDILCAN_Controller->GetHWinfo(NULL, &pulSNHigh, &pulSNLow, &tmpid);
+	serialnumber = decriptSN(pulSNHigh, pulSNLow);
+	if (serialnumber[0] == '0')
 		return ("Not an AGCO Hardware");
-	}
-	else {
-		m_pBaseDILCAN_Controller->GetHWinfo(handle, &pulSNHigh, &pulSNLow, &tmpid);
-		serialnumber = decriptSN(pulSNHigh, pulSNLow);
-		m_pBaseDILCAN_Controller->myCanClose(handle);
-		if (serialnumber[0] == '0')
-			return ("Not an AGCO Hardware");
-		return (serialnumber);
-	}
+	return (serialnumber);
 	return NULL;
 }
 
