@@ -98,18 +98,7 @@ CDIL_CAN_IXXAT_VCI::~CDIL_CAN_IXXAT_VCI()
     m_ClientList.DeleteAllEntries();
 }
 
-HRESULT CDIL_CAN_IXXAT_VCI::myCanOpen(char *name, HANDLE *handle)
-{
-	return S_OK;
-}
-
-HRESULT	CDIL_CAN_IXXAT_VCI::myCanClose(HANDLE handle)
-{
-	return S_OK;
-}
-
-
-HRESULT	CDIL_CAN_IXXAT_VCI::GetHWinfo(HANDLE handle, unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res)
+HRESULT	CDIL_CAN_IXXAT_VCI::GetHWinfo(unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res)
 {
 	(*res) = 0;
 	return S_OK;

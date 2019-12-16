@@ -90,23 +90,10 @@ public:
     HRESULT CAN_LoadDriverLibrary(void);
     HRESULT CAN_UnloadDriverLibrary(void);
     HRESULT CAN_SetHardwareChannel(PSCONTROLLER_DETAILS,DWORD dwDriverId,bool bIsHardwareListed, unsigned int unChannelCount);
-	HRESULT			GetHWinfo(HANDLE handle, unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res);
-	HRESULT			myCanOpen(char *name, HANDLE *handle);
-	HRESULT			myCanClose(HANDLE handle);
+	HRESULT			GetHWinfo(unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res);
 };
 
-HRESULT CDIL_ISOLAR_EVE_VCAN::myCanOpen(char *name, HANDLE *handle)
-{
-	return S_OK;
-}
-
-HRESULT	CDIL_ISOLAR_EVE_VCAN::myCanClose(HANDLE handle)
-{
-	return S_OK;
-}
-
-
-HRESULT	CDIL_ISOLAR_EVE_VCAN::GetHWinfo(HANDLE handle, unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res)
+HRESULT	CDIL_ISOLAR_EVE_VCAN::GetHWinfo(unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res)
 {
 	(*res) = 0;
 	return S_OK;

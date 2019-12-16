@@ -1788,7 +1788,7 @@ void CMsgFrmtWnd::vSetDefaultHeaders()
             sHdrCtrlPos.m_byDataPos     = 7;
 
             //Set the col string
-            somArrColTitle[sHdrCtrlPos.m_byTimePos]     = _("Time              ");
+            somArrColTitle[sHdrCtrlPos.m_byTimePos]     = _("Time                     ");
             somArrColTitle[sHdrCtrlPos.m_byRxTxPos]     = _("Tx/Rx          ");
             somArrColTitle[sHdrCtrlPos.m_byChannel]     = _("Channel        ");
             somArrColTitle[sHdrCtrlPos.m_byMsgTypePos]  = _("Type");

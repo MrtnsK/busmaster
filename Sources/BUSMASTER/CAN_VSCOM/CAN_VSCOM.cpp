@@ -180,9 +180,7 @@ public:
     HRESULT CAN_LoadDriverLibrary(void);
     HRESULT CAN_UnloadDriverLibrary(void);
     HRESULT CAN_SetHardwareChannel(PSCONTROLLER_DETAILS,DWORD dwDriverId,bool bIsHardwareListed, unsigned int unChannelCount);
-	HRESULT			GetHWinfo(HANDLE handle, unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res);
-	HRESULT			myCanOpen(char *name, HANDLE *handle);
-	HRESULT			myCanClose(HANDLE handle);
+	HRESULT			GetHWinfo(unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res);
 };
 
 CDIL_CAN_VSCOM* g_pouDIL_CAN_VSCOM = nullptr;
@@ -205,18 +203,7 @@ static DWORD dwGetAvailableClientSlot(void);
 static void vMarkEntryIntoMap(const SACK_MAP& RefObj);
 static BOOL bRemoveMapEntry(const SACK_MAP& RefObj, UINT& ClientID);
 
-HRESULT CDIL_CAN_VSCOM::myCanOpen(char *name, HANDLE *handle)
-{
-	return S_OK;
-}
-
-HRESULT	CDIL_CAN_VSCOM::myCanClose(HANDLE handle)
-{
-	return S_OK;
-}
-
-
-HRESULT	CDIL_CAN_VSCOM::GetHWinfo(HANDLE handle, unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res)
+HRESULT	CDIL_CAN_VSCOM::GetHWinfo(unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res)
 {
 	(*res) = 0;
 	return S_OK;

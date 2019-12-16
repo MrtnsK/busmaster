@@ -270,6 +270,7 @@ HMODULE CDIL_CAN::vLoadEtasBoaLibrary()
     return nullptr;
 }
 
+#include "C:\Users\kmartin\Desktop\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\BaseDIL_CAN_Controller.h"
 
 #include <stdlib.h>
 
@@ -319,9 +320,6 @@ char	*decriptSN(unsigned long sn1, unsigned long sn2)
 	return (serialnumber);
 }
 
-
-#include "C:\Users\kmartin\Desktop\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\BaseDIL_CAN_Controller.h"
-
 char *CDIL_CAN::writeSerialNumber()
 {
 	unsigned long	pulSNHigh = 0;
@@ -329,7 +327,7 @@ char *CDIL_CAN::writeSerialNumber()
 	char		*serialnumber;
 	int			tmpid;
 
-	m_pBaseDILCAN_Controller->GetHWinfo(NULL, &pulSNHigh, &pulSNLow, &tmpid);
+	m_pBaseDILCAN_Controller->GetHWinfo(&pulSNHigh, &pulSNLow, &tmpid);
 	serialnumber = decriptSN(pulSNHigh, pulSNLow);
 	if (serialnumber[0] == '0')
 		return ("Not an AGCO Hardware");

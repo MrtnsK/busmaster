@@ -226,26 +226,12 @@ public:
     HRESULT CAN_LoadDriverLibrary(void);
     HRESULT CAN_UnloadDriverLibrary(void);
     HRESULT CAN_SetHardwareChannel(PSCONTROLLER_DETAILS,DWORD dwDriverId,bool bIsHardwareListed, unsigned int unChannelCount);
-	HRESULT			GetHWinfo(HANDLE handle, unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res);
-	HRESULT			myCanOpen(char *name, HANDLE *handle);
-	HRESULT			myCanClose(HANDLE handle);
+	HRESULT			GetHWinfo(unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res);
 };
 
 static CDIL_CAN_STUB* sg_pouDIL_CAN_STUB = nullptr;
 
-
-HRESULT CDIL_CAN_STUB::myCanOpen(char *name, HANDLE *handle)
-{
-	return S_OK;
-}
-
-HRESULT	CDIL_CAN_STUB::myCanClose(HANDLE handle)
-{
-	return S_OK;
-}
-
-
-HRESULT	CDIL_CAN_STUB::GetHWinfo(HANDLE handle, unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res)
+HRESULT	CDIL_CAN_STUB::GetHWinfo(unsigned long *pulSNHigh, unsigned long *pulSNLow, int *res)
 {
 	(*res) = 0;
 	return S_OK;
