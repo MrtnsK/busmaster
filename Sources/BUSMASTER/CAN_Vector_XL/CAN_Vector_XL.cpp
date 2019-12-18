@@ -240,7 +240,7 @@ XLportHandle    g_xlPortHandle[MAX_CLIENT_ALLOWED]
 XLdriverConfig  g_xlDrvConfig;                                        //!< Contains the actual hardware configuration
 XLaccess        g_xlChannelMask             = 0;                      //!< Global channelmask (includes all founded channels)
 XLaccess        g_xlPermissionMask          = 0;                      //!< Global permissionmask (includes all founded channels)
-unsigned int    g_BaudRate                  = 500000;                 //!< Default baudrate 500KBauds
+unsigned int    g_BaudRate                  = 250000;                 //!< Default baudrate 500KBauds
 int             g_silent                    = 0;                      //!< flag to visualize the message events (on/off)
 unsigned int    g_TimerRate                 = 0;                      //!< Global timerrate (to toggel)
 XLhandle        g_hDataEvent[MAX_CLIENT_ALLOWED]  = {0};

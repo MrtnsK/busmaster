@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataTypes", "DataTypes\DataTypes.vcxproj", "{5D1AB9D9-755F-4743-AE73-83B7D5FCCD65}"
 EndProject
@@ -155,6 +155,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LIN_Kvaser", "LIN_Kvaser\LI
 		{4A20171C-51DB-4E82-BCE0-5E3EEB070566} = {4A20171C-51DB-4E82-BCE0-5E3EEB070566}
 		{5D1AB9D9-755F-4743-AE73-83B7D5FCCD65} = {5D1AB9D9-755F-4743-AE73-83B7D5FCCD65}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CAN_AGCO", "CAN_AGCO\IOCanBox2.vcxproj", "{0EF93F2E-D68A-4C8C-940C-04E6DE76AC9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -560,9 +562,22 @@ Global
 		{3086F0A4-27AF-481C-B710-FAB650B6C9BE}.Unicode Release MinSize|Win32.Build.0 = Release|Win32
 		{3086F0A4-27AF-481C-B710-FAB650B6C9BE}.Unicode Release|Win32.ActiveCfg = Release|Win32
 		{3086F0A4-27AF-481C-B710-FAB650B6C9BE}.Unicode Release|Win32.Build.0 = Release|Win32
+		{0EF93F2E-D68A-4C8C-940C-04E6DE76AC9B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0EF93F2E-D68A-4C8C-940C-04E6DE76AC9B}.Debug|Win32.Build.0 = Debug|Win32
+		{0EF93F2E-D68A-4C8C-940C-04E6DE76AC9B}.Release|Win32.ActiveCfg = Release|Win32
+		{0EF93F2E-D68A-4C8C-940C-04E6DE76AC9B}.Release|Win32.Build.0 = Release|Win32
+		{0EF93F2E-D68A-4C8C-940C-04E6DE76AC9B}.Unicode Debug|Win32.ActiveCfg = Debug|Win32
+		{0EF93F2E-D68A-4C8C-940C-04E6DE76AC9B}.Unicode Debug|Win32.Build.0 = Debug|Win32
+		{0EF93F2E-D68A-4C8C-940C-04E6DE76AC9B}.Unicode Release MinSize|Win32.ActiveCfg = Release|Win32
+		{0EF93F2E-D68A-4C8C-940C-04E6DE76AC9B}.Unicode Release MinSize|Win32.Build.0 = Release|Win32
+		{0EF93F2E-D68A-4C8C-940C-04E6DE76AC9B}.Unicode Release|Win32.ActiveCfg = Release|Win32
+		{0EF93F2E-D68A-4C8C-940C-04E6DE76AC9B}.Unicode Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {836AB381-ACD8-4A8A-B86A-BD8406D80E0C}
 	EndGlobalSection
 	GlobalSection(Performance) = preSolution
 		HasPerformanceSessions = true

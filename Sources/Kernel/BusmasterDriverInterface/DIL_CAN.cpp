@@ -270,7 +270,7 @@ HMODULE CDIL_CAN::vLoadEtasBoaLibrary()
     return nullptr;
 }
 
-#include "C:\Users\kmartin\Desktop\busmaster\Sources\Kernel\BusmasterDriverInterface\Include\BaseDIL_CAN_Controller.h"
+#include ".\Include\BaseDIL_CAN_Controller.h"
 
 #include <stdlib.h>
 

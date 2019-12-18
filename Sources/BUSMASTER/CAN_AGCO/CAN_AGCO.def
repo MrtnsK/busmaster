@@ -1,0 +1,7 @@
+; IOCanBox2.def : Declares the module parameters for the DLL.
+
+LIBRARY      "MF_IOCanBox"
+DESCRIPTION  'MF_IOCanBox Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

@@ -16469,7 +16469,7 @@ void CMainFrame::vInitialize( SCONTROLLER_DETAILS& controller, BOOL bUpdateHWDes
     controller.m_omStrCNF3 = "5";
     controller.m_omStrBTR0 = "C0";
     controller.m_omStrBTR1 = "3A";
-    controller.m_omStrBaudrate = "500000";
+    controller.m_omStrBaudrate = "250000";
     controller.m_omStrClock = "16";
     controller.m_omStrSamplePercentage = "75";
     controller.m_omStrSampling = "1";
