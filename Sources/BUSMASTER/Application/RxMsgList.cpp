@@ -51,7 +51,7 @@ CRxMsgList::CRxMsgList()
     m_pbSortableColumn = nullptr;
     m_pbAscendingOrder = nullptr;
     m_lClkPoint = CPoint(0,0);
-    m_omNewFont.CreateFont(10, 0,
+    m_omNewFont.CreateFont(14, 0,
                            DEFAULT_FONT_ESCAPEMENT,
                            DEFAULT_FONT_ORIENTATION,
                            FW_NORMAL,
@@ -63,7 +63,7 @@ CRxMsgList::CRxMsgList()
                            CLIP_DEFAULT_PRECIS,
                            DEFAULT_QUALITY,
                            FIXED_PITCH | FF_MODERN,
-                           _("Courier"));
+                           _("Consolas"));
 }
 
 /**********************************************************************************

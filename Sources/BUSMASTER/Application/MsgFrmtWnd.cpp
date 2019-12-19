@@ -300,10 +300,9 @@ int CMsgFrmtWnd::OnCreate(LPCREATESTRUCT lpCreateStruct)
     GetClientRect(&ClientRect);
 
     BOOL bResult = FALSE;
-    bResult = m_lstMsg.Create(WS_CHILD | WS_VISIBLE | LVS_REPORT | LVS_SHOWSELALWAYS |
-                              LVS_SINGLESEL | LVS_ALIGNLEFT | LVS_OWNERDATA | WS_CLIPCHILDREN|
-                              WS_BORDER | WS_TABSTOP, ClientRect, this, IDC_LSTC_MESSAGE);
-
+    bResult = m_lstMsg.Create(WS_CHILD | WS_VISIBLE | LVS_REPORT | LVS_SINGLESEL
+								| LVS_ALIGNLEFT | LVS_OWNERDATA | WS_CLIPCHILDREN
+								| WS_BORDER | WS_TABSTOP, ClientRect, this, IDC_LSTC_MESSAGE);
     vSetDefaultWindowPosition(ClientRect);
 
     if(bResult)
