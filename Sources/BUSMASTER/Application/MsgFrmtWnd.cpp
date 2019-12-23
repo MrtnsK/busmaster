@@ -309,7 +309,7 @@ int CMsgFrmtWnd::OnCreate(LPCREATESTRUCT lpCreateStruct)
     {
         m_lstMsg.vDoInitialization();
 
-        m_lstMsg.SetExtendedStyle(LVS_EX_FULLROWSELECT | LVS_EX_GRIDLINES | LVS_EX_HEADERDRAGDROP );
+        m_lstMsg.SetExtendedStyle(LVS_EX_FULLROWSELECT | LVS_EX_GRIDLINES | LVS_EX_HEADERDRAGDROP);
 
         //m_wndHeader.SubclassWindow(m_lstMsg.GetHeaderCtrl()->m_hWnd);
         VERIFY(m_lstMsg.m_wndHeader.SubclassWindow(m_lstMsg.GetHeaderCtrl()->GetSafeHwnd()));
@@ -321,6 +321,7 @@ int CMsgFrmtWnd::OnCreate(LPCREATESTRUCT lpCreateStruct)
         m_lstMsg.vSetSortableMsgColumns(m_sHdrColStruct, m_eBusType);
 
         m_lstMsg.vShowHideBlankcolumn(m_bInterPretMsg);
+		lstwdw = m_lstMsg.m_hWnd;
     }
     else
     {
@@ -849,11 +850,6 @@ void CMsgFrmtWnd::OnParentNotify(UINT message, LPARAM lParam)
 
         if ( nIndex >= 0 )
         {
-            if (TRUE && (nFlag & LVHT_ONITEM))
-            {
-                //vHandleInterpretation( nIndex );
-            }
-            //if (bHasEntryIconClicked(nIndex, CPoint(LOWORD(lParam),HIWORD(lParam))))
             if (nFlag == LVHT_ONITEMICON && IS_MODE_INTRP(m_bExprnFlag_Disp))
             {
                 vExpandContractMsg( nIndex );
@@ -3962,16 +3958,25 @@ void CMsgFrmtWnd::vSetClientID(DWORD dwClientID)
     m_dwClientID = dwClientID;
 }
 
-
 BOOL CMsgFrmtWnd::PreTranslateMessage(MSG* pMsg)
 {
+	MSG msg;
+	::CopyMemory(&msg, pMsg, sizeof(MSG));
     // TODO: Add your specialized code here and/or call the base class
-    if ( pMsg->message >= WM_MOUSEFIRST &&
-            pMsg->message <= WM_MOUSELAST )
+	if (pMsg->message == WM_LBUTTONDOWN || pMsg->message == WM_RBUTTONDOWN || pMsg->message == WM_RBUTTONUP)
+	{
+		POINT p;
+		if (GetCursorPos(&p))
+		{
+			::ScreenToClient(msg.hwnd, &p);
+			if (msg.hwnd == lstwdw)
+			{
+				return true;
+			}
+		}
+	}
+    if ( pMsg->message >= WM_MOUSEFIRST && pMsg->message <= WM_MOUSELAST)
     {
-        MSG msg;
-        ::CopyMemory(&msg, pMsg, sizeof(MSG));
-
         HWND hWndPrnt = ::GetParent(msg.hwnd);
         while(hWndPrnt && m_hWnd != hWndPrnt)
         {

@@ -1,13 +1,13 @@
- @echo off
-SET actualpath=%~dp0
+@echo off
 
-if exist "C:\Program Files (x86)\Sontheim\MT_Api\SIECA132.exe" (
-	echo [35mInstalling Sontheim Driver[0m
-	START /WAIT %actualpath%MT_API\setup.exe
+	SET actualpath=%~dp0
+if exist "C:\Program Files (x86)\Sontheim\MT_Api" (
+echo [35mSontheim Driver already installed[0m
 ) else (
-	echo [35mSontheim Driver already installed[0m
+echo [35mInstalling Sontheim Driver[0m
+	START /WAIT %actualpath%MT_API\data\MT_API_fr.msi /qr /norestart
+	START "C:\Program Files (x86)\Sontheim\MT_Api\SIECA132.exe" exit
 )
-
 echo [35mInstalling Busmaster requirement[0m
 	START /WAIT %actualpath%install.exe
 

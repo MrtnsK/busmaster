@@ -21,6 +21,7 @@
 #pragma once
 #include "RxMsgList.h"
 #include <set>
+#include <winuser.h>
 #include "include/BaseDefs.h"
 //#include "PSDIHandler.h"
 #include "TreeItemParam.h"
@@ -65,6 +66,7 @@ protected:
     CMsgWndHdrInfo m_MsgHdrInfo;
 public:
 
+	HWND	lstwdw;
 
     CMsgFrmtWnd(ETYPE_BUS eBusType, CMsgContainerBase* msgContainer, HWND parentWnd);
 
