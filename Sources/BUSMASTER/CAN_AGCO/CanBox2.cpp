@@ -536,7 +536,49 @@ HRESULT CCanBox2::CAN_GetLastErrorString(std::string& acErrorStr)
 
 HRESULT CCanBox2::CAN_GetControllerParams(LONG& lParam, UINT nChannel, ECONTR_PARAM eContrParam)
 {
-	return S_OK;
+	HRESULT hResult = S_OK;
+	if ((sg_bCurrState == STATE_HW_INTERFACE_SELECTED) || (sg_bCurrState == STATE_CONNECTED))
+	{
+		switch (eContrParam)
+		{
+			case NUMBER_HW:
+			{
+				lParam = 2;
+			}
+			break;
+			case NUMBER_CONNECTED_HW:
+			{
+				lParam = 2;
+			}
+			break;
+			case DRIVER_STATUS:
+			{
+				lParam = true;
+			}
+			break;
+			case HW_MODE:
+			{
+				lParam = true;
+			}
+			break;
+			case CON_TEST:
+			{
+				lParam = true;
+			}
+			break;
+			default:
+			{
+				hResult = S_FALSE;
+			}
+			break;
+		}
+	}
+	else
+	{
+		hResult = ERR_IMPROPER_STATE;
+	}
+
+	return hResult;
 }
 
 HRESULT CCanBox2::CAN_SetControllerParams(int nValue, ECONTR_PARAM eContrparam)
