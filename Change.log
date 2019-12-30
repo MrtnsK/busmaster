@@ -1,0 +1,51 @@
+## [3.2.2] - From 2019-12-30
+minor change
+clean up
+### Fixed
+- Find a tmp solution to prevent the focusing problem that prevent us to scroll (Right and Left click is disable in the trace window)
+### Changed
+- Improve documentation in FR and EN
+### Needed soon
+-Improve installer to make it faster and lighter
+
+
+## [3.2.2] - From 2019-12-27
+minor change
+### Added
+- Add LDFE editor
+### Fixed
+- bug with j1939 tx window that was crashing the whole soft
+- bug with CAN tx window with channel selection
+
+## [3.2.2] - From 2019-12-23
+### Added
+- Add format converter soft
+- Add FR and EN documentation to use busmaster
+### Changed
+- Improve scripts
+
+## [3.2.2] - From 2019-12-19
+### Changed
+-Improve scripts
+
+## [3.2.2] - From 2019-12-18
+minor change
+cleanup
+### Added
+- Implement dll to busmaster project
+- Installation script
+
+
+## [3.2.2] - From 2019-12-16
+minor change
+### Changed
+- Wider timestamp column to make trace easily readable
+
+## [3.2.2] - From 2019-11-07 to 2019-12-05
+minor change
+cleanup
+### Added
+- Identification Hardware button for agco canusb
+- Adaptation of Sontheim/AGCO dll for busmaster
+### Changed
+- Rework some of the ui
