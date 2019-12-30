@@ -903,9 +903,10 @@ void CMsgFrmtWnd::OnParentNotify(UINT message, LPARAM lParam)
                 int nToStop = 0;
             }
 
-            m_lstMsg.SetItemState( nItem,
-                                   LVIS_SELECTED | LVIS_FOCUSED,
-                                   LVIS_SELECTED | LVIS_FOCUSED);
+			m_lstMsg.SetItemState(nItem, 0, 0); // no state to tmp block r and l click to prevent focusing probleme
+            //m_lstMsg.SetItemState( nItem,
+            //                       LVIS_SELECTED | LVIS_FOCUSED,
+            //                       LVIS_SELECTED | LVIS_FOCUSED);
 
             // Take this as selected item
             nIndex = nItem;
@@ -999,7 +1000,6 @@ void CMsgFrmtWnd::OnParentNotify(UINT message, LPARAM lParam)
                 delete pomContextMenu;
                 pomContextMenu = nullptr;
             }
-
         }
     }
     CMDIChildWnd::OnParentNotify(message, lParam);
