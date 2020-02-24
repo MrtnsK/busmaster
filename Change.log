@@ -1,3 +1,5 @@
+
+
 ## [3.2.2] - From 2019-12-30
 minor change
 clean up
@@ -5,9 +7,6 @@ clean up
 - Find a tmp solution to prevent the focusing problem that prevent us to scroll (Right and Left click is disable in the trace window)
 ### Changed
 - Improve documentation in FR and EN
-### Needed soon
--Improve installer to make it faster and lighter
-
 
 ## [3.2.2] - From 2019-12-27
 minor change
